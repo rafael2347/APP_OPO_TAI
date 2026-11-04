@@ -1,0 +1,3863 @@
+[
+ {
+  "id": "s1",
+  "tema": "Constitución y AAPP",
+  "q": "¿En qué título de la Constitución Española se regula la Corona?",
+  "o": [
+   "Título I",
+   "Título II",
+   "Título III",
+   "Título IV"
+  ],
+  "c": 1,
+  "e": "El Título II (arts. 56-65) regula la Corona."
+ },
+ {
+  "id": "s2",
+  "tema": "Constitución y AAPP",
+  "q": "¿Cuál es la duración máxima de una legislatura en España?",
+  "o": [
+   "3 años",
+   "4 años",
+   "5 años",
+   "6 años"
+  ],
+  "c": 1,
+  "e": "Las Cortes Generales se eligen por 4 años (art. 68.4 CE)."
+ },
+ {
+  "id": "s3",
+  "tema": "Constitución y AAPP",
+  "q": "Si la norma reguladora no fija plazo, ¿cuál es el plazo máximo para resolver y notificar un procedimiento administrativo (Ley 39/2015)?",
+  "o": [
+   "1 mes",
+   "3 meses",
+   "6 meses",
+   "12 meses"
+  ],
+  "c": 1,
+  "e": "Art. 21.3 Ley 39/2015: tres meses."
+ },
+ {
+  "id": "s4",
+  "tema": "Constitución y AAPP",
+  "q": "¿Cuál es el plazo para interponer recurso de alzada contra un acto expreso?",
+  "o": [
+   "10 días",
+   "1 mes",
+   "2 meses",
+   "3 meses"
+  ],
+  "c": 1,
+  "e": "Art. 122 Ley 39/2015: un mes si el acto es expreso."
+ },
+ {
+  "id": "s5",
+  "tema": "Constitución y AAPP",
+  "q": "¿Qué ley regula el Régimen Jurídico del Sector Público?",
+  "o": [
+   "Ley 40/2015",
+   "Ley 39/2015",
+   "Ley 19/2013",
+   "Ley 9/2017"
+  ],
+  "c": 0,
+  "e": "La Ley 40/2015 es la LRJSP; la 39/2015 es la LPAC."
+ },
+ {
+  "id": "s6",
+  "tema": "Redes",
+  "q": "¿Qué capa del modelo OSI se encarga del encaminamiento (routing)?",
+  "o": [
+   "Enlace",
+   "Red",
+   "Transporte",
+   "Sesión"
+  ],
+  "c": 1,
+  "e": "La capa 3 (Red) trabaja con direcciones IP y routing."
+ },
+ {
+  "id": "s7",
+  "tema": "Redes",
+  "q": "¿Cuál es el puerto por defecto de HTTPS?",
+  "o": [
+   "80",
+   "443",
+   "8080",
+   "21"
+  ],
+  "c": 1,
+  "e": "HTTPS usa TCP/443."
+ },
+ {
+  "id": "s8",
+  "tema": "Redes",
+  "q": "¿Qué puerto usa por defecto SSH?",
+  "o": [
+   "21",
+   "22",
+   "23",
+   "25"
+  ],
+  "c": 1,
+  "e": "SSH usa TCP/22."
+ },
+ {
+  "id": "s9",
+  "tema": "Redes",
+  "q": "¿Qué registro DNS asocia un nombre con una dirección IPv4?",
+  "o": [
+   "A",
+   "AAAA",
+   "MX",
+   "PTR"
+  ],
+  "c": 0,
+  "e": "A = IPv4, AAAA = IPv6, MX = correo, PTR = inversa."
+ },
+ {
+  "id": "s10",
+  "tema": "Redes",
+  "q": "¿Cuántos bits tiene una dirección IPv4?",
+  "o": [
+   "32",
+   "64",
+   "128",
+   "48"
+  ],
+  "c": 0,
+  "e": "IPv4 = 32 bits; IPv6 = 128 bits."
+ },
+ {
+  "id": "s11",
+  "tema": "Redes",
+  "q": "¿Qué protocolo de transporte usan habitualmente las consultas DNS?",
+  "o": [
+   "TCP",
+   "UDP",
+   "ICMP",
+   "SCTP"
+  ],
+  "c": 1,
+  "e": "Consultas normales por UDP/53; TCP para transferencias de zona o respuestas grandes."
+ },
+ {
+  "id": "s12",
+  "tema": "Sistemas",
+  "q": "¿Qué comando de Linux cambia los permisos de un fichero?",
+  "o": [
+   "chown",
+   "chmod",
+   "chgrp",
+   "umask"
+  ],
+  "c": 1,
+  "e": "chmod modifica permisos; chown, el propietario."
+ },
+ {
+  "id": "s13",
+  "tema": "Sistemas",
+  "q": "¿Qué permisos representa el modo octal 755?",
+  "o": [
+   "rwxr-xr-x",
+   "rw-r--r--",
+   "rwxrwxrwx",
+   "r-xr-xr-x"
+  ],
+  "c": 0,
+  "e": "7=rwx, 5=r-x, 5=r-x."
+ },
+ {
+  "id": "s14",
+  "tema": "Bases de datos",
+  "q": "¿Qué cláusula SQL filtra grupos tras un GROUP BY?",
+  "o": [
+   "WHERE",
+   "HAVING",
+   "ORDER BY",
+   "LIMIT"
+  ],
+  "c": 1,
+  "e": "WHERE filtra filas antes de agrupar; HAVING filtra grupos."
+ },
+ {
+  "id": "s15",
+  "tema": "Bases de datos",
+  "q": "¿Qué forma normal exige eliminar las dependencias transitivas?",
+  "o": [
+   "1FN",
+   "2FN",
+   "3FN",
+   "4FN"
+  ],
+  "c": 2,
+  "e": "La 3FN elimina dependencias transitivas de atributos no clave."
+ },
+ {
+  "id": "s16",
+  "tema": "Bases de datos",
+  "q": "En ACID, ¿qué propiedad garantiza que una transacción se aplica por completo o no se aplica?",
+  "o": [
+   "Atomicidad",
+   "Consistencia",
+   "Aislamiento",
+   "Durabilidad"
+  ],
+  "c": 0,
+  "e": "Atomicidad: todo o nada."
+ },
+ {
+  "id": "s17",
+  "tema": "Seguridad",
+  "q": "¿Cuál de estos algoritmos es de cifrado simétrico?",
+  "o": [
+   "RSA",
+   "AES",
+   "ECC",
+   "DSA"
+  ],
+  "c": 1,
+  "e": "AES es simétrico; RSA, ECC y DSA son asimétricos."
+ },
+ {
+  "id": "s18",
+  "tema": "Seguridad",
+  "q": "¿Cuál es la longitud de salida de SHA-256?",
+  "o": [
+   "128 bits",
+   "160 bits",
+   "256 bits",
+   "512 bits"
+  ],
+  "c": 2,
+  "e": "SHA-256 genera un resumen de 256 bits."
+ },
+ {
+  "id": "s19",
+  "tema": "Seguridad",
+  "q": "¿Qué real decreto regula actualmente el Esquema Nacional de Seguridad?",
+  "o": [
+   "RD 3/2010",
+   "RD 311/2022",
+   "RD 4/2010",
+   "RD 951/2015"
+  ],
+  "c": 1,
+  "e": "El RD 311/2022 derogó el RD 3/2010."
+ },
+ {
+  "id": "s20",
+  "tema": "Seguridad",
+  "q": "Según el RGPD, ¿en cuántas horas debe notificarse una brecha de seguridad a la autoridad de control (si es posible)?",
+  "o": [
+   "24",
+   "48",
+   "72",
+   "96"
+  ],
+  "c": 2,
+  "e": "Art. 33 RGPD: sin dilación indebida y, de ser posible, en 72 horas."
+ },
+ {
+  "id": "s21",
+  "tema": "Hardware",
+  "q": "¿Qué nivel RAID realiza espejo (mirroring)?",
+  "o": [
+   "RAID 0",
+   "RAID 1",
+   "RAID 5",
+   "RAID 6"
+  ],
+  "c": 1,
+  "e": "RAID 1 duplica los datos en dos discos."
+ },
+ {
+  "id": "s22",
+  "tema": "Hardware",
+  "q": "¿Qué nivel RAID no ofrece tolerancia a fallos?",
+  "o": [
+   "RAID 0",
+   "RAID 1",
+   "RAID 5",
+   "RAID 6"
+  ],
+  "c": 0,
+  "e": "RAID 0 solo reparte datos (striping), sin redundancia."
+ },
+ {
+  "id": "s23",
+  "tema": "Programación",
+  "q": "¿Qué estructura de datos sigue el principio LIFO?",
+  "o": [
+   "Cola",
+   "Pila",
+   "Árbol",
+   "Grafo"
+  ],
+  "c": 1,
+  "e": "Pila: el último en entrar es el primero en salir."
+ },
+ {
+  "id": "s24",
+  "tema": "Programación",
+  "q": "¿Cuál es la complejidad de la búsqueda binaria?",
+  "o": [
+   "O(n)",
+   "O(log n)",
+   "O(n²)",
+   "O(1)"
+  ],
+  "c": 1,
+  "e": "Divide el espacio de búsqueda a la mitad en cada paso."
+ },
+ {
+  "id": "2024-LI-A-1",
+  "tema": "Examen 2024-LI-A",
+  "q": "¿Cuál de los siguientes derechos recogidos en el Capítulo Segundo del Título I de la Constitución Española NO forma parte de los Derechos Fundamentales y Libertades Públicas (Artículos 15 a 29)?",
+  "o": [
+   "Derecho a sindicarse libremente.",
+   "Derecho a la propiedad privada.",
+   "Derecho a la producción y creación literaria, artística, científica y técnica.",
+   "Derecho a elegir libremente su residencia."
+  ],
+  "c": 1,
+  "e": ""
+ },
+ {
+  "id": "2024-LI-A-2",
+  "tema": "Examen 2024-LI-A",
+  "q": "Según el Título I, Capítulo Cuarto, “De las garantías de las libertades y derechos fundamentales” de la Constitución Española de 1978, señale la opción correcta:",
+  "o": [
+   "Los derechos y libertades reconocidos no vinculan a todas las Administraciones Públicas.",
+   "Sólo por ley orgánica podrá regularse el ejercicio de tales derechos y libertades.",
+   "Una ley orgánica regulará la institución del Defensor del Pueblo.",
+   "El reconocimiento, el respeto y la protección de los principios reconocidos en el Capítulo tercero, informará la judicialización positiva, la práctica legislativa y la actuación de los poderes públicos."
+  ],
+  "c": 2,
+  "e": ""
+ },
+ {
+  "id": "2024-LI-A-3",
+  "tema": "Examen 2024-LI-A",
+  "q": "Señale la respuesta INCORRECTA de acuerdo con el Título II, artículo 62 de la Constitución Española de 1978. Corresponde al Rey:",
+  "o": [
+   "Convocar a referéndum en los casos previstos en la Constitución, previa autorización de las Cortes Generales.",
+   "Convocar y disolver las Cortes Generales y convocar elecciones en los términos previstos en la Constitución.",
+   "Proponer el candidato a Presidente de Gobierno y, en su caso, nombrarlo, así como poner fin a sus funciones en los términos previstos en la Constitución.",
+   "Nombrar y separar a los miembros del Gobierno, a propuesta de su Presidente."
+  ],
+  "c": 0,
+  "e": ""
+ },
+ {
+  "id": "2024-LI-A-4",
+  "tema": "Examen 2024-LI-A",
+  "q": "¿Quién puede ser elegido Defensor del Pueblo, según la Ley Orgánica 3/1981, de 6 de abril?",
+  "o": [
+   "Cualquier Magistrado elegido por las Cortes Generales.",
+   "Cualquier Senador elegido por las Cortes Generales.",
+   "Cualquier persona que se encuentre en el pleno disfrute de sus derechos civiles.",
+   "Cualquier español mayor de edad que se encuentre en el pleno disfrute de sus derechos civiles y políticos."
+  ],
+  "c": 3,
+  "e": ""
+ },
+ {
+  "id": "2024-LI-A-5",
+  "tema": "Examen 2024-LI-A",
+  "q": "Según el artículo 71 de la Constitución Española de 1978, ¿quién es el competente en las causas contra Diputados y Senadores?",
+  "o": [
+   "Sala de lo Penal del Tribunal Constitucional.",
+   "Sala de lo Contencioso Administrativo del Tribunal Supremo.",
+   "Sala de lo Penal del Tribunal Supremo.",
+   "Sala de lo Civil del Tribunal Supremo."
+  ],
+  "c": 2,
+  "e": ""
+ },
+ {
+  "id": "2024-LI-A-6",
+  "tema": "Examen 2024-LI-A",
+  "q": "Según el Título III \"De las Cortes Generales\" de la Constitución Española de 1978, las Cámaras podrán:",
+  "o": [
+   "Recibir peticiones individuales y colectivas, siempre por escrito, quedando prohibida la presentación directa por manifestaciones ciudadanas.",
+   "Delegar en las Comisiones Legislativas Permanentes la aprobación de proyectos o proposiciones de ley relativas a los Presupuestos Generales del Estado.",
+   "Reunirse en sesión extraordinaria a petición de la mayoría simple de los miembros de cualquiera de las Cámaras.",
+   "Nombrar conjuntamente Comisiones de Investigación sobre asuntos de interés público. Sus conclusiones serán vinculantes para los Tribunales."
+  ],
+  "c": 0,
+  "e": ""
+ },
+ {
+  "id": "2024-LI-A-7",
+  "tema": "Examen 2024-LI-A",
+  "q": "Según lo establecido en el artículo 159 de la Constitución Española de 1978, los miembros del Tribunal Constitucional serán designados por períodos de:",
+  "o": [
+   "9 años y se renovarán por terceras partes cada 3.",
+   "9 años y se renovarán por terceras partes cada 2.",
+   "6 años y se renovarán por terceras partes cada 3.",
+   "6 años y se renovarán por terceras partes cada 2."
+  ],
+  "c": 0,
+  "e": ""
+ },
+ {
+  "id": "2024-LI-A-8",
+  "tema": "Examen 2024-LI-A",
+  "q": "El Gobierno se rige, en su organización y funcionamiento, entre otras, por la Ley:",
+  "o": [
+   "Ley 50/1997, de 27 de noviembre.",
+   "Ley 50/1999, de 26 de noviembre.",
+   "Ley 50/1996, de 28 de noviembre.",
+   "Ley 50/1998, de 29 de noviembre."
+  ],
+  "c": 0,
+  "e": ""
+ },
+ {
+  "id": "2024-LI-A-9",
+  "tema": "Examen 2024-LI-A",
+  "q": "La Constitución Española de 1978 en su artículo 113 establece que:",
+  "o": [
+   "El Congreso de los Diputados puede exigir la responsabilidad jurídica del Gobierno mediante la adopción por mayoría absoluta de la moción de censura.",
+   "El Congreso de los Diputados puede exigir la responsabilidad política del Gobierno mediante la adopción por mayoría simple de la moción de censura.",
+   "El Congreso de los Diputados puede exigir la responsabilidad civil del Gobierno mediante la adopción por mayoría absoluta de la moción de censura.",
+   "El Congreso de los Diputados puede exigir la responsabilidad política del Gobierno mediante la adopción por mayoría absoluta de la moción de censura."
+  ],
+  "c": 3,
+  "e": ""
+ },
+ {
+  "id": "2024-LI-A-10",
+  "tema": "Examen 2024-LI-A",
+  "q": "Señale la respuesta INCORRECTA sobre el uso obligatorio de firma requerida a los interesados por parte de las Administraciones Públicas que recoge el artículo 11 de Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas:",
+  "o": [
+   "Conocer el estado de la tramitación.",
+   "Desistir de acciones.",
+   "Presentar declaraciones responsables o comunicaciones.",
+   "Formular solicitudes."
+  ],
+  "c": 0,
+  "e": ""
+ },
+ {
+  "id": "2024-LI-A-11",
+  "tema": "Examen 2024-LI-A",
+  "q": "Tal y como se recoge en la Resolución de 14 de diciembre de 2015, de la Dirección de Tecnologías de la Información y las Comunicaciones, por la que se establecen las prescripciones técnicas necesarias para el desarrollo y aplicación del sistema Cl@ve, señale la respuesta correcta:",
+  "o": [
+   "Es un sistema que está dirigido a los ciudadanos que cumplan con los requisitos indicados en las Prescripciones Técnicas.",
+   "Ofrece tres niveles de garantía de registro asociados a la forma y a las garantías que ofrezca la comunicación de la información de registro por parte del ciudadano.",
+   "Proporcionará a los usuarios tres modalidades de identificación electrónica basadas en el uso de claves concertadas.",
+   "Permitirá también el acceso a servicios de firma electrónica, en particular, a servicios de firma de documentos electrónicos mediante certificados electrónicos centralizados."
+  ],
+  "c": 3,
+  "e": ""
+ },
+ {
+  "id": "2024-LI-A-12",
+  "tema": "Examen 2024-LI-A",
+  "q": "Señale la respuesta correcta sobre la solicitud de acceso a la información pública que recoge el artículo 17 de la Ley 19/2013, de 9 de diciembre, de transparencia, acceso a la información pública y buen gobierno:",
+  "o": [
+   "Sólo se podrá presentar en castellano.",
+   "Es obligatorio indicar una dirección de contacto electrónica, a efectos de comunicaciones.",
+   "Deberá dirigirse al titular del órgano administrativo o entidad que posea la información.",
+   "Deberá motivarse."
+  ],
+  "c": 2,
+  "e": ""
+ },
+ {
+  "id": "2024-LI-A-13",
+  "tema": "Examen 2024-LI-A",
+  "q": "Indique la respuesta correcta sobre la vigencia que tienen los certificados electrónicos reconocidos incorporados al documento nacional de identidad, según la legislación vigente:",
+  "o": [
+   "No podrá ser superior a tres años.",
+   "No podrá ser superior a cuatro años.",
+   "No podrá ser superior a cinco años.",
+   "No podrá ser superior a seis años."
+  ],
+  "c": 2,
+  "e": ""
+ },
+ {
+  "id": "2024-LI-A-14",
+  "tema": "Examen 2024-LI-A",
+  "q": "La Ley 56/2007, de 28 de diciembre, de Medidas de Impulso de la Sociedad de la Información, ¿qué establece sobre la factura electrónica en el artículo 1?",
+  "o": [
+   "Los formatos estructurados de las facturas electrónicas permitirán su visualización y emisión en las distintas lenguas oficiales existentes y en inglés, con la finalidad de garantizar los derechos de los usuarios nacionales y extranjeros.",
+   "Los formatos estructurados de las facturas electrónicas permitirán su visualización y emisión en las distintas lenguas oficiales existentes, con la finalidad de garantizar los derechos de los usuarios.",
+   "No trata en ningún artículo sobre la factura electrónica.",
+   "La factura electrónica solo se utilizará en contratación, estando excluida de la justificación de ayudas y subvenciones."
+  ],
+  "c": 1,
+  "e": ""
+ },
+ {
+  "id": "2024-LI-A-15",
+  "tema": "Examen 2024-LI-A",
+  "q": "¿Qué principio relativo al tratamiento de datos personales definido en el Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo, de 27 de abril de 2016, relativo a la protección de las personas físicas en lo que respecta al tratamiento de datos personales y a la libre circulación de estos datos y por el que se deroga la Directiva 95/46/CE (Reglamento general de protección de datos) se refiere a que los datos serán adecuados, pertinentes y limitados a lo necesario en relación con los fines para los que son tratados?",
+  "o": [
+   "Limitación de la finalidad.",
+   "Exactitud.",
+   "Minimización de datos.",
+   "Adecuación de datos."
+  ],
+  "c": 2,
+  "e": ""
+ },
+ {
+  "id": "2024-LI-A-16",
+  "tema": "Examen 2024-LI-A",
+  "q": "Señale la respuesta correcta respecto a las notificaciones según la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas:",
+  "o": [
+   "Toda notificación deberá ser cursada dentro del plazo de quince días a partir de la fecha en que el acto haya sido dictado.",
+   "Cuando los interesados en un procedimiento sean desconocidos, se ignore el lugar de la notificación o bien, intentada ésta, no se hubiese podido practicar, la notificación se hará por medio de un anuncio publicado en el BOE.",
+   "Las notificaciones se practicarán preferentemente en papel y, en todo caso, cuando el interesado resulte obligado a recibirlas por esta vía.",
+   "Cuando la notificación se practique en el domicilio del interesado, de no hallarse presente éste en el momento de entregarse la notificación, podrá hacerse cargo de ella cualquier persona mayor de dieciséis años que se encuentre en el domicilio y haga constar su identidad."
+  ],
+  "c": 1,
+  "e": ""
+ },
+ {
+  "id": "2024-LI-A-17",
+  "tema": "Examen 2024-LI-A",
+  "q": "De acuerdo con el Real Decreto 203/2021, de 30 de marzo, por el que se aprueba el Reglamento de actuación y funcionamiento del sector público por medios electrónicos, ¿cuál de las siguientes opciones forma parte del contenido mínimo que debe contener una sede electrónica?",
+  "o": [
+   "Relación de los canales de acceso electrónico a dicha sede como instrumento de comunicación para los ciudadanos.",
+   "Relación de los Puntos de Acceso General electrónicos que la referencian directa o indirectamente.",
+   "Normativa reguladora del Registro al que se acceda a través de la sede electrónica.",
+   "Enlace directo al Boletín Oficial correspondiente."
+  ],
+  "c": 2,
+  "e": ""
+ },
+ {
+  "id": "2024-LI-A-18",
+  "tema": "Examen 2024-LI-A",
+  "q": "Marque la respuesta correcta relacionada con el nodo eIDAS español:",
+  "o": [
+   "Para las Administraciones Públicas, la integración con el nodo eIDAS español se realiza a través de @Firma.",
+   "Permite el reconocimiento de identidades en soportes físicos emitidas por otros países.",
+   "Facilita la aceptación del DNI electrónico en servicios de Administración Electrónica de otras administraciones integrantes de la OCDE.",
+   "Utiliza un sistema de intercambio de mensajes conforme al estándar SAML 2.0."
+  ],
+  "c": 3,
+  "e": ""
+ },
+ {
+  "id": "2024-LI-A-19",
+  "tema": "Examen 2024-LI-A",
+  "q": "¿Qué es la taxonomía de Flynn?",
+  "o": [
+   "Una clasificación de patrones de diseño para objetos de software, centrados en su creación, relación e interacción.",
+   "Una clasificación para las computadoras con arquitectura paralela atendiendo al flujo de datos e instrucciones en un sistema.",
+   "Una clasificación que pretende clarificar los diferentes tipos de tecnologías, técnicas y mecanismos que abarca el concepto abstracto de “Inteligencia Artificial”.",
+   "Una clasificación de los tipos de controladores (drivers) JDBC."
+  ],
+  "c": 1,
+  "e": ""
+ },
+ {
+  "id": "2024-LI-A-20",
+  "tema": "Examen 2024-LI-A",
+  "q": "Indique, de las siguientes palabras, cuál indica además un número hexadecimal válido:",
+  "o": [
+   "EBOCA",
+   "BECADAS",
+   "ACCEDA",
+   "CEGADA"
+  ],
+  "c": 2,
+  "e": ""
+ },
+ {
+  "id": "2024-LI-A-21",
+  "tema": "Examen 2024-LI-A",
+  "q": "Señale cuál de las siguientes es un formato de interfaz SSD:",
+  "o": [
+   "HHP",
+   "MMVe",
+   "MMD",
+   "M.2"
+  ],
+  "c": 3,
+  "e": ""
+ },
+ {
+  "id": "2024-LI-A-23",
+  "tema": "Examen 2024-LI-A",
+  "q": "Con respecto a los árboles 2-3-4, señale la respuesta correcta:",
+  "o": [
+   "Cumple las propiedades del árbol binario de búsqueda.",
+   "Las hojas pueden estar a distinto nivel.",
+   "Los nodos pueden tener 2, 3 o 4 hijos (2-nodo, 3-nodo o 4-nodo).",
+   "Las reestructuraciones se realizan desde las hojas hacia la raíz."
+  ],
+  "c": 2,
+  "e": ""
+ },
+ {
+  "id": "2024-LI-A-24",
+  "tema": "Examen 2024-LI-A",
+  "q": "Señale la respuesta correcta referente al tipo abstracto de datos (TAD) Cola:",
+  "o": [
+   "Basada en el principio LIFO (last-in, first-out).",
+   "Es un tipo especial de lista en la que se pueden insertar y eliminar por cualquier extremo.",
+   "Cada nodo tiene dos enlaces, uno al nodo siguiente, y otro al anterior.",
+   "Se pude implementar usando una estructura dinámica."
+  ],
+  "c": 3,
+  "e": ""
+ },
+ {
+  "id": "2024-LI-A-25",
+  "tema": "Examen 2024-LI-A",
+  "q": "Señale la respuesta INCORRECTA acerca de los tipos abstractos de datos (TAD):",
+  "o": [
+   "Es una colección de propiedades y operaciones que se definen mediante una especificación que es independiente de cualquier representación.",
+   "Nos permiten diseñar nuestros propios tipos para encapsular lógica algorítmica y proveer abstracción a las capas de software de más alto nivel.",
+   "Se pueden escribir usando lenguaje natural, usando pseudo-código o incluso algún lenguaje de programación.",
+   "En JAVA, una estructura de datos (interface) debe implementar todas las operaciones definidas en su TAD (class)."
+  ],
+  "c": 3,
+  "e": ""
+ },
+ {
+  "id": "2024-LI-A-26",
+  "tema": "Examen 2024-LI-A",
+  "q": "¿Cuál es la función del kernel en un sistema operativo Unix/Linux?",
+  "o": [
+   "Gestionar la interfaz gráfica.",
+   "Controlar los procesos, la memoria y la administración de dispositivos.",
+   "Proveer servicios de red como TCP/IP.",
+   "Facilitar la comunicación entre usuarios a través de terminales."
+  ],
+  "c": 1,
+  "e": ""
+ },
+ {
+  "id": "2024-LI-A-27",
+  "tema": "Examen 2024-LI-A",
+  "q": "Señale la respuesta INCORRECTA. Android NDK:",
+  "o": [
+   "Es un conjunto de herramientas que permiten implementar partes de las aplicaciones de Android mediante C y C++.",
+   "Genera librerías binarias para cada arquitectura de procesador que se pueden invocar desde Java por medio de JNI (Java Native Interface).",
+   "Se recomienda su uso con aplicaciones intensivas a nivel computacional, como juegos o simulaciones físicas.",
+   "No permite la reutilización de código, no pudiendo usar bibliotecas de otros desarrolladores."
+  ],
+  "c": 3,
+  "e": ""
+ },
+ {
+  "id": "2024-LI-A-28",
+  "tema": "Examen 2024-LI-A",
+  "q": "¿Cuál es la característica diferenciadora de las claves foráneas en una base de datos relacional?",
+  "o": [
+   "Un atributo que no tiene relación con otras tablas.",
+   "Un atributo que referencia la clave primaria de otra tabla.",
+   "Un atributo que puede tener valores duplicados. de datos.",
+   "Un atributo que se utiliza solo para consultas."
+  ],
+  "c": 1,
+  "e": ""
+ },
+ {
+  "id": "2024-LI-A-29",
+  "tema": "Examen 2024-LI-A",
+  "q": "¿Cuál de los siguientes es un Sistema de Gestión de Bases de Datos Orientadas a Objetos (SGDBOO)?",
+  "o": [
+   "Cézanne.",
+   "Picasso.",
+   "Matisse.",
+   "Rembrandt."
+  ],
+  "c": 2,
+  "e": ""
+ },
+ {
+  "id": "2024-LI-A-30",
+  "tema": "Examen 2024-LI-A",
+  "q": "¿Qué es el lenguaje OQL en el contexto de las bases de datos orientadas a objetos?",
+  "o": [
+   "OQL no es un lenguaje en el contexto de las bases de datos orientadas a objetos.",
+   "Un lenguaje de definición de datos.",
+   "Un lenguaje de consulta de datos.",
+   "Un lenguaje de manipulación de datos."
+  ],
+  "c": 2,
+  "e": ""
+ },
+ {
+  "id": "2024-LI-A-31",
+  "tema": "Examen 2024-LI-A",
+  "q": "De acuerdo con Métrica v3, en el Modelo Entidad/Relación Extendido, ¿cuál es el término que representa la participación en la relación de cada una de las entidades afectadas?",
+  "o": [
+   "Atributo.",
+   "Cardinalidad.",
+   "Tipo de Correspondencia.",
+   "Dominio."
+  ],
+  "c": 1,
+  "e": ""
+ },
+ {
+  "id": "2024-LI-A-32",
+  "tema": "Examen 2024-LI-A",
+  "q": "Señale la respuesta correcta sobre la normalización de bases de datos en Métrica v3:",
+  "o": [
+   "Un atributo tiene dependencia funcional completa de otro si, y sólo si, depende de él a través de otro atributo.",
+   "Una entidad está en 1FN si tiene grupos repetitivos, es decir, un atributo puede tomar varios valores de un dominio simple.",
+   "Una entidad está en 2FN si está en 1FN y todos los atributos que no forman parte de las claves candidatas tienen dependencia funcional completa respecto de éstas.",
+   "Una relación en 3FN estará también en 2FN, pero no en 1FN."
+  ],
+  "c": 2,
+  "e": ""
+ },
+ {
+  "id": "2024-LI-A-33",
+  "tema": "Examen 2024-LI-A",
+  "q": "Señale, de entre las siguientes opciones, el mecanismo en el Modelo Entidad/Relación Extendido que recoge Métrica v3 consistente en relacionar dos tipos de entidades que normalmente son de dominios independientes, pero coyunturalmente se asocian:",
+  "o": [
+   "Asociación.",
+   "Generalización.",
+   "PERT.",
+   "Regresión."
+  ],
+  "c": 0,
+  "e": ""
+ },
+ {
+  "id": "2024-LI-A-34",
+  "tema": "Examen 2024-LI-A",
+  "q": "Para las variables a=1, b=2, c=3, d=1 ¿cuál es la operación lógica que da un resultado true?",
+  "o": [
+   "((a>b) or (a<c)) and ((a==c) or (a>=b))",
+   "((a>=b) or (a<d)) and ((a>=d) or (c>d))",
+   "Not (a==c) and (c>b)",
+   "Not (a>=d) and not (c>=b)"
+  ],
+  "c": 2,
+  "e": ""
+ },
+ {
+  "id": "2024-LI-A-35",
+  "tema": "Examen 2024-LI-A",
+  "q": "Señale la respuesta correcta en relación con las funciones y los procedimientos:",
+  "o": [
+   "Una llamada a un procedimiento puede aparecer como operando de una expresión.",
+   "El paso de parámetros por referencia envía una copia del valor que tenga el parámetro real, por lo que no se podrá alterar el contenido de la variable.",
+   "Los parámetros por referencia se pueden emplear como parámetros de entrada/salida.",
+   "Todo procedimiento debe ejecutar una sentencia de return."
+  ],
+  "c": 2,
+  "e": ""
+ },
+ {
+  "id": "2024-LI-A-36",
+  "tema": "Examen 2024-LI-A",
+  "q": "Suponga el siguiente programa escrito en un lenguaje de programación estándar: integer x=0; while x<100 do (x=x+1; print x; x=x-1;)",
+  "o": [
+   "Este programa imprime los números enteros del 1 al 100.",
+   "Este programa imprime los números impares del 1 al 100.",
+   "Este programa imprime los números pares del 1 al 100.",
+   "Este programa es un bucle infinito."
+  ],
+  "c": 3,
+  "e": ""
+ },
+ {
+  "id": "2024-LI-A-37",
+  "tema": "Examen 2024-LI-A",
+  "q": "Referente a los comandos DML del lenguaje SQL, señale la respuesta correcta:",
+  "o": [
+   "DML es acrónimo de Data Manager Language.",
+   "Permiten crear nuevas bases de datos, añadiendo y eliminando elementos.",
+   "El comando TRUNCATE es un comando DML.",
+   "El comando SELECT es un comando DML."
+  ],
+  "c": 3,
+  "e": ""
+ },
+ {
+  "id": "2024-LI-A-38",
+  "tema": "Examen 2024-LI-A",
+  "q": "Referente al comando DROP de SQL, es correcto decir:",
+  "o": [
+   "Es un comando DCL.",
+   "Puede ser ejecutado por disparadores (triggers).",
+   "Se utiliza para eliminar la estructura de una tabla junto con cualquier dato almacenado en ella.",
+   "Utiliza WHERE para condiciones de filtrado."
+  ],
+  "c": 2,
+  "e": ""
+ },
+ {
+  "id": "2024-LI-A-39",
+  "tema": "Examen 2024-LI-A",
+  "q": "Señale la respuesta INCORRECTA referente a los disparadores o triggers de una base de datos:",
+  "o": [
+   "Son procedimientos que se ejecutan o activan cada vez que ocurre un evento determinado sobre una tabla determinada.",
+   "Los eventos que se pueden asociar a la ejecución de un trigger son: INSERT, UPDATE, DELETE.",
+   "Puede decidirse que se activen antes o después de un evento determinado.",
+   "Un error durante la ejecución de cualquier trigger no cancela automáticamente la operación que lo disparó, la cancelación hay que programarla."
+  ],
+  "c": 3,
+  "e": ""
+ },
+ {
+  "id": "2024-LI-A-40",
+  "tema": "Examen 2024-LI-A",
+  "q": "En diseño y programación orientada a objetos, una relación de generalización entre clases:",
+  "o": [
+   "Implica que la subclase hereda las propiedades, el comportamiento y las relaciones de la superclase, a la vez que puede añadir sus propias propiedades, relaciones y comportamiento.",
+   "Describe un conjunto de enlaces, que definen las interconexiones semánticas entre las instancias de las clases que participan en la relación.",
+   "Asume una subordinación conceptual del tipo “todo/parte”, o bien “tiene un”.",
+   "Se representa mediante una línea discontinua que une la superclase y subclase con un rectángulo al lado de la superclase."
+  ],
+  "c": 0,
+  "e": ""
+ },
+ {
+  "id": "2024-LI-A-41",
+  "tema": "Examen 2024-LI-A",
+  "q": "Señale la respuesta INCORRECTA respecto al Lenguaje de Modelado Unificado (UML):",
+  "o": [
+   "Es un lenguaje basado en diagramas para la especificación, visualización, construcción y documentación de cualquier sistema software.",
+   "Es independiente de las metodologías de análisis y diseño y de los lenguajes de programación que se utilicen en la construcción del software.",
+   "Se basa en el paradigma de la orientación a objetos.",
+   "Muestra únicamente el modelado estático de un sistema software, que puede utilizarse en las diferentes fases de su ciclo de desarrollo."
+  ],
+  "c": 3,
+  "e": ""
+ },
+ {
+  "id": "2024-LI-A-42",
+  "tema": "Examen 2024-LI-A",
+  "q": "Señale la respuesta INCORRECTA. El patrón de diseño “Composite”:",
+  "o": [
+   "Es un patrón de diseño estructural que permite componer objetos en estructuras de árbol.",
+   "Sirve para construir objetos complejos a partir de otros más simples y similares entre sí.",
+   "Simplifica el tratamiento de los objetos creados que, al poseer de una interfaz común, se tratan todos de la misma manera.",
+   "Se recomienda su uso cuando se quiere añadir responsabilidades a objetos concretos de manera dinámica y transparente y sin afectar a otros objetos."
+  ],
+  "c": 3,
+  "e": ""
+ },
+ {
+  "id": "2024-LI-A-43",
+  "tema": "Examen 2024-LI-A",
+  "q": "¿Qué es .NET MAUI?",
+  "o": [
+   ".NET MAUI es un marco multiplataforma para crear aplicaciones móviles y de escritorio nativas con C# y XAML.",
+   "Es una plataforma para desarrollar aplicaciones en Java.",
+   "Es una herramienta de pruebas automatizadas.",
+   "Es una plataforma para desarrollar aplicaciones móviles que se puede ejecutar en sistema Android solamente."
+  ],
+  "c": 0,
+  "e": ""
+ },
+ {
+  "id": "2024-LI-A-44",
+  "tema": "Examen 2024-LI-A",
+  "q": "En el ámbito de ASP.NET Core, señale la respuesta correcta respecto a Razor:",
+  "o": [
+   "Razor es la sintaxis de plantillas utilizada en ASP.NET Core para crear vistas dinámicas en aplicaciones web.",
+   "Es uno de los lenguajes de programación que se utilizan con ASP.NET Core.",
+   "Razor se ejecuta directamente en el navegador del cliente.",
+   "Razor utiliza el @símbolo para realizar la transición de C# a HTML."
+  ],
+  "c": 0,
+  "e": ""
+ },
+ {
+  "id": "2024-LI-A-45",
+  "tema": "Examen 2024-LI-A",
+  "q": "La persistencia en Jakarta EE se gestiona principalmente a través de la especificación Jakarta Persistence API (JPA). Indique la respuesta correcta:",
+  "o": [
+   "Una de sus ventajas es que no necesita utilizar un proveedor de JPA.",
+   "El lenguaje de consulta similar a SQL pero orientado a objetos de JPA es JPSQL.",
+   "Normalmente, una entidad representa una tabla en una base de datos relacional y cada instancia de la entidad corresponde a una fila de esa tabla.",
+   "JPA no permite definir relaciones entre entidades del tipo uno a muchos."
+  ],
+  "c": 2,
+  "e": ""
+ },
+ {
+  "id": "2024-LI-A-46",
+  "tema": "Examen 2024-LI-A",
+  "q": "¿Cuál es una característica de los sistemas distribuidos?",
+  "o": [
+   "Falta de transparencia: un nodo no puede acceder a otros nodos del sistema y comunicarse con ellos.",
+   "Procesamiento independiente: varias máquinas no pueden procesar la misma función a la vez.",
+   "Escalabilidad: la capacidad computacional y de procesamiento puede escalarse hacia arriba según sea necesario cuando se añaden máquinas adicionales.",
+   "Comunicación diferencial: usan nodos distintos para comunicarse y sincronizarse a través de redes independientes entre sí."
+  ],
+  "c": 2,
+  "e": ""
+ },
+ {
+  "id": "2024-LI-A-47",
+  "tema": "Examen 2024-LI-A",
+  "q": "Señale la opción correcta sobre la arquitectura de servicios web REST:",
+  "o": [
+   "En la arquitectura REST, el servicio no almacena información sobre el estado del cliente entre peticiones.",
+   "El uso de identificadores está basado en SOA.",
+   "En la arquitectura REST, la interfaz para acceder a los recursos expuestos puede ser HTTP o FTP.",
+   "Es una arquitectura no orientada a recursos."
+  ],
+  "c": 0,
+  "e": ""
+ },
+ {
+  "id": "2024-LI-A-48",
+  "tema": "Examen 2024-LI-A",
+  "q": "¿Cuál de las siguientes es una diferencia entre HTML y XHTML?",
+  "o": [
+   "HTML exige que las etiquetas se escriban en minúscula, mientras que XHTML no.",
+   "XHTML permite que haya elementos no vacíos sin cerrar, mientras que HTML no.",
+   "En HTML es obligatorio que los valores de los atributos vayan entre comillas, mientras que en XHTML no.",
+   "En XHTML es obligatoria la presencia del elemento <head>."
+  ],
+  "c": 3,
+  "e": ""
+ },
+ {
+  "id": "2024-LI-A-49",
+  "tema": "Examen 2024-LI-A",
+  "q": "¿Qué evento de HTML utilizaría para producir un efecto al situar el puntero del ratón sobre un elemento?",
+  "o": [
+   "onclick.",
+   "onmouseover.",
+   "onmousedown.",
+   "onmouseout."
+  ],
+  "c": 1,
+  "e": ""
+ },
+ {
+  "id": "2024-LI-A-50",
+  "tema": "Examen 2024-LI-A",
+  "q": "Con respecto a las solicitudes de información accesible y quejas, el Real Decreto 1112/2018, de 7 de septiembre, sobre accesibilidad de los sitios web y aplicaciones para dispositivos móviles del sector público establece que:",
+  "o": [
+   "Recibidas las solicitudes de información accesible y quejas, la entidad obligada deberá responder a la persona interesada en el plazo de veinte días naturales.",
+   "Recibidas las solicitudes de información accesible y quejas, la entidad obligada deberá responder a la persona interesada en el plazo de veinte días hábiles.",
+   "Recibidas las solicitudes de información accesible y quejas, la entidad obligada deberá responder a la persona interesada en el plazo de diez días naturales.",
+   "Recibidas las solicitudes de información accesible y quejas, la entidad obligada deberá responder a la persona interesada en el plazo de diez días hábiles."
+  ],
+  "c": 1,
+  "e": ""
+ },
+ {
+  "id": "2024-LI-A-52",
+  "tema": "Examen 2024-LI-A",
+  "q": "Señale la respuesta correcta referente al término ATAG:",
+  "o": [
+   "Son Pautas de Accesibilidad que explican cómo hacer que el contenido web sea más accesible para las personas con discapacidades.",
+   "Es una Suite que define una forma de hacer que el contenido web y las aplicaciones web sean más accesibles para las personas con discapacidades.",
+   "Son Pautas de Accesibilidad que explican cómo hacer que los agentes de usuario sean accesibles para las personas con discapacidades.",
+   "Son un conjunto de normas que deben cumplir las herramientas de autor para ser accesibles y generar contenidos también accesibles."
+  ],
+  "c": 3,
+  "e": ""
+ },
+ {
+  "id": "2024-LI-A-53",
+  "tema": "Examen 2024-LI-A",
+  "q": "¿Cuál de las siguientes opciones se utilizan para el control de versiones?",
+  "o": [
+   "Mercurial, CVS y Selenium.",
+   "GitLab, GitHub y Apache Subversion.",
+   "SVN, Git y Cucumber.",
+   "Selenium, Cucumber y GitLab."
+  ],
+  "c": 1,
+  "e": ""
+ },
+ {
+  "id": "2024-LI-A-54",
+  "tema": "Examen 2024-LI-A",
+  "q": "Según establece Métrica V3, en la construcción de un sistema de información, las pruebas que permiten verificar que los componentes o subsistemas interactúan correctamente a través de sus interfaces, tanto internas como externas, cubren la funcionalidad establecida y se ajustan a los requisitos especificados en las verificaciones correspondientes son:",
+  "o": [
+   "Pruebas unitarias.",
+   "Pruebas de integración.",
+   "Pruebas del sistema.",
+   "Pruebas de migración."
+  ],
+  "c": 1,
+  "e": ""
+ },
+ {
+  "id": "2024-LI-A-55",
+  "tema": "Examen 2024-LI-A",
+  "q": "¿Cuál de los siguientes conceptos permite que un proceso ejecute múltiples tareas de manera simultánea o concurrente en un sistema operativo?",
+  "o": [
+   "Segmentación.",
+   "Paginación.",
+   "Prepaging.",
+   "Hilos."
+  ],
+  "c": 3,
+  "e": ""
+ },
+ {
+  "id": "2024-LI-A-56",
+  "tema": "Examen 2024-LI-A",
+  "q": "El comando sfc /scannow:",
+  "o": [
+   "Examina todos los archivos de sistema protegidos y reemplaza los archivos dañados con una copia en caché.",
+   "Rrepara el entorno de arranque ubicado en la partición del sistema.",
+   "Muestra o establece la directiva de red de área de almacenamiento (sanSAN) para el sistema operativo.",
+   "Analizar uno o varios servidores con una directiva generada por SCW."
+  ],
+  "c": 0,
+  "e": ""
+ },
+ {
+  "id": "2024-LI-A-57",
+  "tema": "Examen 2024-LI-A",
+  "q": "¿Cuánta carga útil puede almacenar un jumboframe?",
+  "o": [
+   "7.000 bytes.",
+   "1.500 bytes.",
+   "9.000 bytes.",
+   "10.000 bytes."
+  ],
+  "c": 2,
+  "e": ""
+ },
+ {
+  "id": "2024-LI-A-58",
+  "tema": "Examen 2024-LI-A",
+  "q": "¿Qué protocolo hay que utilizar para obtener una dirección física a partir de una dirección lógica?",
+  "o": [
+   "RARP.",
+   "NAT.",
+   "ARP.",
+   "PAT."
+  ],
+  "c": 2,
+  "e": ""
+ },
+ {
+  "id": "2024-LI-A-59",
+  "tema": "Examen 2024-LI-A",
+  "q": "¿Qué topología de red consiste en conectar todos los nodos directamente a un nodo central?",
+  "o": [
+   "Estrella.",
+   "Anillo.",
+   "Bus.",
+   "Árbol."
+  ],
+  "c": 0,
+  "e": ""
+ },
+ {
+  "id": "2024-LI-A-60",
+  "tema": "Examen 2024-LI-A",
+  "q": "La regla 3-2-1 de las copias de seguridad consiste en:",
+  "o": [
+   "Conservar 3 copias de los datos, en 2 medios diferentes con 1 copia almacenada en un lugar externo a la organización.",
+   "Conservar 3 copias de los datos, en 2 medios iguales con 1 copia almacenada en un lugar externo a la organización.",
+   "Conservar 3 copias de los datos, en 2 medios iguales con 1 copia almacenada en un lugar interno a la organización.",
+   "Conservar 3 copias de los datos, en 2 medios diferentes con 1 copia almacenada en un lugar interno a la organización."
+  ],
+  "c": 0,
+  "e": ""
+ },
+ {
+  "id": "2024-LI-A-61",
+  "tema": "Examen 2024-LI-A",
+  "q": "Señale la respuesta correcta referente a los sistemas de almacenamiento SAN y NAS:",
+  "o": [
+   "SAN es más económico y fácil de configurar.",
+   "SAN es el acrónimo de Storage Attached Network.",
+   "NAS es un dispositivo de almacenamiento compartido basado en archivos.",
+   "NAS es el acrónimo de Network Area Storage."
+  ],
+  "c": 2,
+  "e": ""
+ },
+ {
+  "id": "2024-LI-A-62",
+  "tema": "Examen 2024-LI-A",
+  "q": "Señale la respuesta correcta:",
+  "o": [
+   "Los backups utilizan poca capacidad de almacenamiento.",
+   "Los backups son manuales, los snapshots son programables.",
+   "Los backups pueden almacenarse en localizaciones y medios distintos.",
+   "Los backups son una representación instantánea del estado de un sistema en un momento específico."
+  ],
+  "c": 2,
+  "e": ""
+ },
+ {
+  "id": "2024-LI-A-63",
+  "tema": "Examen 2024-LI-A",
+  "q": "¿Cuál es una ventaja del uso del protocolo IMAP en lugar de POP3?",
+  "o": [
+   "Permite visualizar los correos directamente en el servidor sin descargarlos.",
+   "Es más sencillo que POP3.",
+   "No requiere autenticación.",
+   "Descarga los correos automáticamente del servidor."
+  ],
+  "c": 0,
+  "e": ""
+ },
+ {
+  "id": "2024-LI-A-64",
+  "tema": "Examen 2024-LI-A",
+  "q": "Señale cuáles de las siguientes son tecnologías relacionadas con la contenerización y la gestión de contenedores:",
+  "o": [
+   "Docker, Containerd y Podman.",
+   "Docker, CRI-O y nginx.",
+   "Podman, Kubernetes y Ubuntu.",
+   "Docker, Kubernetes y Debian."
+  ],
+  "c": 0,
+  "e": ""
+ },
+ {
+  "id": "2024-LI-A-65",
+  "tema": "Examen 2024-LI-A",
+  "q": "Indique la respuesta INCORRECTA respecto a PoE (Power over Ethernet):",
+  "o": [
+   "Power over Ethernet (PoE) es una tecnología que permite que los conmutadores de red transmitan energía y datos a través de un cable Ethernet simultáneamente.",
+   "Existen dos tipos: PoE activo y PoE pasivo.",
+   "PoE pasivo no se adhiere a ningún estándar IEEE.",
+   "El último estándar de PoE activo es el IEEE 802.3at."
+  ],
+  "c": 3,
+  "e": ""
+ },
+ {
+  "id": "2024-LI-A-66",
+  "tema": "Examen 2024-LI-A",
+  "q": "La norma IEEE 802.11 se refiere a:",
+  "o": [
+   "Redes inalámbricas.",
+   "Redes de área metropolitana.",
+   "Redes integradas para voz y datos.",
+   "Seguridad de red."
+  ],
+  "c": 0,
+  "e": ""
+ },
+ {
+  "id": "2024-LI-A-67",
+  "tema": "Examen 2024-LI-A",
+  "q": "¿Cuál de las siguientes es una herramienta de ticketing para la gestión de incidentes de seguridad en las entidades del ámbito de aplicación del Esquema Nacional de Seguridad?",
+  "o": [
+   "ATENEA.",
+   "MONICA.",
+   "LUCIA.",
+   "INES."
+  ],
+  "c": 2,
+  "e": ""
+ },
+ {
+  "id": "2024-LI-A-68",
+  "tema": "Examen 2024-LI-A",
+  "q": "Indique la respuesta correcta sobre el formato de firma digital CAdES:",
+  "o": [
+   "Es apropiado para firmar ficheros grandes, especialmente si la firma contiene el documento original.",
+   "Es el formato de firma que utiliza Microsoft Office.",
+   "El resultado es un fichero de texto XML. No es adecuado cuando el fichero original es muy grande.",
+   "Es el formato más adecuado cuando el documento original es un PDF."
+  ],
+  "c": 0,
+  "e": ""
+ },
+ {
+  "id": "2024-LI-A-69",
+  "tema": "Examen 2024-LI-A",
+  "q": "Indique la respuesta correcta sobre tipos de ataque a un sistema de información:",
+  "o": [
+   "El sniffing es la generación de tráfico utilizando un origen falseado.",
+   "El spoofing es la captura del tráfico que circula por una red.",
+   "Denegacion de servicio distribuida (DDoS) es un ataque a varios objetivos desde un solo punto, con la finalidad de degradar total o parcialmente los servicios prestados por esos recursos a sus usuarios legítimos.",
+   "El barrido (“escaneo”) de puertos es un ataque que trata de obtener información básica acerca de qué servicios se ofrecen en un determinado sistema, así como otros detalles técnicos del mismo."
+  ],
+  "c": 3,
+  "e": ""
+ },
+ {
+  "id": "2024-LI-A-71",
+  "tema": "Examen 2024-LI-A",
+  "q": "Señale cuál de las siguientes tecnologías NO es una tecnología LPWAN:",
+  "o": [
+   "LoRaWAN.",
+   "Bluetooth LE.",
+   "SigFox.",
+   "NB-IoT."
+  ],
+  "c": 1,
+  "e": ""
+ },
+ {
+  "id": "2024-LI-A-72",
+  "tema": "Examen 2024-LI-A",
+  "q": "¿Cuál de las siguientes respuestas es correcta respecto al modelo OSI de ISO?",
+  "o": [
+   "Las capas o niveles del modelo OSI son: Física, de red, de transporte, de sesión, de presentación y de aplicación.",
+   "La versión actual del estándar OSI es la ISO/IEC 7498-1:1994.",
+   "La capa de transporte se ocupa, entre otros, de aspectos como el enrutamiento, el reenvío y el direccionamiento a través de una red.",
+   "La capa de sesión a menudo se divide en dos subcapas: la capa de control de acceso a los medios (MAC) y la capa de control de enlace lógico (LLC)."
+  ],
+  "c": 1,
+  "e": ""
+ },
+ {
+  "id": "2024-LI-A-73",
+  "tema": "Examen 2024-LI-A",
+  "q": "¿Cuál es la respuesta correcta con respecto modelo TCP/IP?",
+  "o": [
+   "La arquitectura TCP/IP tiene cinco capas o niveles: Acceso a red, Internet, Transporte, Sesión y Aplicación.",
+   "TCP y UDP son protocolos de la capa de Internet.",
+   "Telnet es un protocolo de la capa de sesión.",
+   "ICMP es un protocolo de la capa de Internet."
+  ],
+  "c": 3,
+  "e": ""
+ },
+ {
+  "id": "2024-LI-A-74",
+  "tema": "Examen 2024-LI-A",
+  "q": "Relativa al direccionamiento IPv4, indique la respuesta INCORRECTA:",
+  "o": [
+   "La dirección 172.16.52.63 es una dirección de clase B.",
+   "Las direcciones 192.168.123.71 y 192.168.123.133 con máscara de subred 255.255.255.192 se encuentran en la misma red.",
+   "Las redes de clase A usan una máscara de subred predeterminada de 255.0.0.0.",
+   "En las redes clase C se permite direccionar 254 equipos como máximo."
+  ],
+  "c": 1,
+  "e": ""
+ },
+ {
+  "id": "2024-LI-A-75",
+  "tema": "Examen 2024-LI-A",
+  "q": "¿Qué código de respuesta HTTP se devuelve si el usuario que hace la petición NO tiene autorización para obtener la información?",
+  "o": [
+   "401",
+   "403",
+   "405",
+   "407"
+  ],
+  "c": 1,
+  "e": ""
+ },
+ {
+  "id": "2024-LI-A-76",
+  "tema": "Examen 2024-LI-A",
+  "q": "Indique la respuesta correcta sobre el IETF (Internet Engineering Task Force):",
+  "o": [
+   "Es un organismo creador de estándares en Internet.",
+   "Es responsable de las funciones administrativas relacionadas con la raíz del sistema de nombres de dominio (DNS), el direccionamiento del protocolo de Internet y otros recursos del protocolo de Internet.",
+   "Es responsable de administrar y supervisar la coordinación del sistema de nombres de dominio (DNS) de Internet y sus identificadores únicos, como las direcciones de protocolo de Internet (IP).",
+   "Es el Foro de Gobernanza de Internet."
+  ],
+  "c": 0,
+  "e": ""
+ },
+ {
+  "id": "2024-LI-A-77",
+  "tema": "Examen 2024-LI-A",
+  "q": "Sobre tipos de transferencia de archivos en el servicio FTP (File Transfer Protocol), es CORRECTO decir que:",
+  "o": [
+   "El tipo ASCII es adecuado para transferir archivos de texto plano.",
+   "El tipo Multimedia es adecuado para transferir imágenes y archivos de audio.",
+   "El tipo Binario solo es adecuado para transferir ficheros ejecutables para PC.",
+   "El tipo ASCII es adecuado para transferir páginas HTML y las imágenes que puedan contener."
+  ],
+  "c": 0,
+  "e": ""
+ },
+ {
+  "id": "2024-LI-A-78",
+  "tema": "Examen 2024-LI-A",
+  "q": "¿Cuál de los siguientes ataques consiste en suplantar a una entidad legítima por medio de llamadas telefónicas?",
+  "o": [
+   "Pharming.",
+   "Smishing.",
+   "Vishing.",
+   "Whaling."
+  ],
+  "c": 2,
+  "e": ""
+ },
+ {
+  "id": "2024-LI-A-79",
+  "tema": "Examen 2024-LI-A",
+  "q": "La creación de un señuelo atractivo para potenciales atacantes con el objetivo de aprender sus ataques y poder prevenirlos o defenderlos en el futuro se hace mediante un:",
+  "o": [
+   "IPS.",
+   "SIEM.",
+   "IDS.",
+   "Honeypot."
+  ],
+  "c": 3,
+  "e": ""
+ },
+ {
+  "id": "2024-LI-A-80",
+  "tema": "Examen 2024-LI-A",
+  "q": "La herramienta del CCN que proporciona visibilidad y control sobre la red es:",
+  "o": [
+   "CARMEN.",
+   "EMMA.",
+   "MONICA.",
+   "OLVIDO."
+  ],
+  "c": 1,
+  "e": ""
+ },
+ {
+  "id": "2025-HELLIN-1",
+  "tema": "Examen 2025-HELLIN",
+  "q": "¿Cuál de los siguientes NO es un derecho de los funcionarios públicos locales?",
+  "o": [
+   "Derecho a la carrera profesional",
+   "Derecho a la libre sindicación",
+   "Derecho a percibir una retribución mensual y periódica por servicios extraordinarios, de forma ilimitada",
+   "Derecho a vacaciones, permisos y licencias"
+  ],
+  "c": 2,
+  "e": ""
+ },
+ {
+  "id": "2025-HELLIN-2",
+  "tema": "Examen 2025-HELLIN",
+  "q": "¿Cuál es la norma fundamental que establece el Estatuto de Autonomía de Castilla-La Mancha?",
+  "o": [
+   "El Real Decreto 10/1983",
+   "Ley Orgánica 9/1982, de 10 de agosto",
+   "La Ley 10/1982 de 9 de febrero",
+   "La Ley Orgánica 1/1983 de 9 de agosto"
+  ],
+  "c": 1,
+  "e": ""
+ },
+ {
+  "id": "2025-HELLIN-3",
+  "tema": "Examen 2025-HELLIN",
+  "q": "¿Cuál es la principal diferencia entre Microsoft Office 2016 y Office 365?",
+  "o": [
+   "Office 365 no necesita conexión a Internet para funcionar",
+   "Office 2016 solo incluye Word y Excel, mientras que Office 365 incluye todas las aplicaciones",
+   "Office 2016 es una suite de escritorio, mientras que Office 365 es una suite en la nube",
+   "Office 2016 es un servicio de suscripción anual, mientras que Office 365 es una compra de licencia única"
+  ],
+  "c": 2,
+  "e": ""
+ },
+ {
+  "id": "2025-HELLIN-4",
+  "tema": "Examen 2025-HELLIN",
+  "q": "¿Qué herramienta permite la conversión de otros formatos a PDF y la edición básica de documentos PDF?",
+  "o": [
+   "PDF24 Creator",
+   "Acrobat Reader",
+   "Microsoft Access",
+   "PDF14 Google Chrome"
+  ],
+  "c": 0,
+  "e": ""
+ },
+ {
+  "id": "2025-HELLIN-5",
+  "tema": "Examen 2025-HELLIN",
+  "q": "¿Cuál es la principal característica de una red de difusión (broadcast)?",
+  "o": [
+   "Los datos se envían a un único destinatario conocido",
+   "Los datos se envían a un grupo específico de destinatarios",
+   "Los datos se envían a todos los dispositivos de la red a la vez",
+   "Los datos se envían solo a los dispositivos de otra red"
+  ],
+  "c": 2,
+  "e": ""
+ },
+ {
+  "id": "2025-HELLIN-6",
+  "tema": "Examen 2025-HELLIN",
+  "q": "¿Cuál de los siguientes es un protocolo de la capa de transporte en el modelo TCP/IP?",
+  "o": [
+   "IP",
+   "HTTP",
+   "FTP",
+   "UDP"
+  ],
+  "c": 3,
+  "e": ""
+ },
+ {
+  "id": "2025-HELLIN-7",
+  "tema": "Examen 2025-HELLIN",
+  "q": "¿Qué tipo de compresión de imagen se utiliza en el formato JPEG?",
+  "o": [
+   "Compresión sin pérdida",
+   "Compresión con pérdida",
+   "Compresión vectorial",
+   "Compresión de audio"
+  ],
+  "c": 1,
+  "e": ""
+ },
+ {
+  "id": "2025-HELLIN-8",
+  "tema": "Examen 2025-HELLIN",
+  "q": "¿Cuál de las siguientes herramientas es una suite de diseño gráfico y edición de imágenes de código abierto?",
+  "o": [
+   "Adobe Photoshop",
+   "GIMP",
+   "CorelDRAW",
+   "Lightroom"
+  ],
+  "c": 1,
+  "e": ""
+ },
+ {
+  "id": "2025-HELLIN-9",
+  "tema": "Examen 2025-HELLIN",
+  "q": "Según el artículo 22 de la Constitución Española son ilegales las asociaciones:",
+  "o": [
+   "Que no persigan fines tipificados como delito",
+   "Que utilicen medios tipificados como injurias",
+   "Que persigan fines o utilicen medios tipificados como delito",
+   "Que persigan fines delictivos o utilicen medios peligrosos"
+  ],
+  "c": 2,
+  "e": ""
+ },
+ {
+  "id": "2025-HELLIN-10",
+  "tema": "Examen 2025-HELLIN",
+  "q": "¿Quién designa al Defensor del Pueblo?",
+  "o": [
+   "El Gobierno",
+   "El Congreso",
+   "El Senado",
+   "Las Cortes Generales"
+  ],
+  "c": 3,
+  "e": ""
+ },
+ {
+  "id": "2025-HELLIN-11",
+  "tema": "Examen 2025-HELLIN",
+  "q": "¿Cuál no es un elemento del Municipio?",
+  "o": [
+   "La población",
+   "La organización",
+   "El territorio",
+   "El Padrón Municipal"
+  ],
+  "c": 3,
+  "e": ""
+ },
+ {
+  "id": "2025-HELLIN-12",
+  "tema": "Examen 2025-HELLIN",
+  "q": "El siguiente tipo de RAM se construye con celdas que guardan los datos (bits) como carga en un capacitor:",
+  "o": [
+   "RAM dinámica (DRAM)",
+   "RAM ordinaria",
+   "RAM magnética",
+   "RAM estática (SRAM)"
+  ],
+  "c": 0,
+  "e": ""
+ },
+ {
+  "id": "2025-HELLIN-13",
+  "tema": "Examen 2025-HELLIN",
+  "q": "¿Cómo validar vulnerabilidades del tipo inyección SQL?",
+  "o": [
+   "Mejor mediante blacklist que whitelist",
+   "Validando en el lado cliente",
+   "Mediante sentencias preparadas de SQL",
+   "Ninguna de las anteriores"
+  ],
+  "c": 2,
+  "e": ""
+ },
+ {
+  "id": "2025-HELLIN-14",
+  "tema": "Examen 2025-HELLIN",
+  "q": "La vulnerabilidad que puede llevar a un usuario a otro sitio web se denomina:",
+  "o": [
+   "LFI",
+   "Open redirect",
+   "SQLI",
+   "HTTP response splitting"
+  ],
+  "c": 1,
+  "e": ""
+ },
+ {
+  "id": "2025-HELLIN-15",
+  "tema": "Examen 2025-HELLIN",
+  "q": "¿Cuáles pueden ser fuente de entrada de datos a una aplicación?",
+  "o": [
+   "Un formulario",
+   "Una conexión TCPIP",
+   "Un campo de una tabla de una BD",
+   "Todas las anteriores son ciertas"
+  ],
+  "c": 3,
+  "e": ""
+ },
+ {
+  "id": "2025-HELLIN-16",
+  "tema": "Examen 2025-HELLIN",
+  "q": "¿Cuál es el puerto TCP por defecto utilizado por el protocolo HTTPS?",
+  "o": [
+   "443",
+   "80",
+   "8080",
+   "81"
+  ],
+  "c": 0,
+  "e": ""
+ },
+ {
+  "id": "2025-HELLIN-17",
+  "tema": "Examen 2025-HELLIN",
+  "q": "En el marco de las pautas de accesibilidad web definidas por el W3C (WCAG), ¿qué principio de accesibilidad web, establece que la información debe poder presentarse de diferentes formas sin perder significado?",
+  "o": [
+   "Perceptible",
+   "Operable",
+   "Comprensible",
+   "Robusto"
+  ],
+  "c": 0,
+  "e": ""
+ },
+ {
+  "id": "2025-HELLIN-18",
+  "tema": "Examen 2025-HELLIN",
+  "q": "En entornos corporativos, Microsoft Active Directory proporciona servicios de directorio centralizados. Para acceder y consultar estos servicios de directorio de manera estándar, ¿qué protocolo se utiliza comúnmente?",
+  "o": [
+   "ADSA",
+   "LDAP",
+   "SMTP",
+   "MADP"
+  ],
+  "c": 1,
+  "e": ""
+ },
+ {
+  "id": "2025-HELLIN-19",
+  "tema": "Examen 2025-HELLIN",
+  "q": "Considerando los roles y servicios disponibles en Windows Server, con un dominio y con varios servidores ¿Cuál es la ventaja principal del servicio de rol DFS?",
+  "o": [
+   "Replicar y unificar recursos compartidos distribuidos en varios servidores, ofreciendo una vista centralizada a los usuarios",
+   "Sustituir la gestión de usuarios y políticas de Active Directory en el dominio",
+   "Auditar y registrar cambios en archivos para cumplir políticas de seguridad",
+   "Equilibrar automáticamente la carga de almacenamiento entre servidores del dominio"
+  ],
+  "c": 0,
+  "e": ""
+ },
+ {
+  "id": "2025-HELLIN-20",
+  "tema": "Examen 2025-HELLIN",
+  "q": "Una organización implementa soluciones de EDR y XDR. ¿Cuál es la principal ventaja de XDR frente a EDR en la gestión de incidentes de seguridad?",
+  "o": [
+   "XDR permite reunir información de múltiples fuentes (endpoints, correo, etc.) para detectar y responder a ataques sofisticados, mientras que EDR se limita a analizar eventos en endpoints",
+   "XDR sustituye completamente la gestión de usuarios y políticas centralizadas de Active Directory, mientras que EDR solo protege endpoints",
+   "EDR bloquea de manera automática y en tiempo real cualquier tráfico de red sospechoso a nivel global, mientras que XDR únicamente registra la actividad detectada sin aplicar medidas de respuesta",
+   "XDR centraliza todos los registros de seguridad en una consola común en la nube, pero carece de mecanismos avanzados de correlación y de respuesta activa ante incidentes"
+  ],
+  "c": 0,
+  "e": ""
+ },
+ {
+  "id": "2025-HELLIN-21",
+  "tema": "Examen 2025-HELLIN",
+  "q": "En la gestión de sistemas de correo electrónico, existen diversos protocolos estándar que permiten enviar, recibir y gestionar mensajes entre clientes y servidores. Entre los siguientes términos, ¿cuál NO corresponde a un protocolo real asociado al correo electrónico?",
+  "o": [
+   "SMTP",
+   "POP3",
+   "POP4",
+   "IMAP4"
+  ],
+  "c": 2,
+  "e": ""
+ },
+ {
+  "id": "2025-HELLIN-22",
+  "tema": "Examen 2025-HELLIN",
+  "q": "En las comunicaciones VoIP, la voz se digitaliza y se envía a través de la red utilizando distintos protocolos de transporte y control, ¿qué protocolo se encarga específicamente de transportar la voz en tiempo real sobre redes IP?",
+  "o": [
+   "TCP",
+   "UDP",
+   "FTP",
+   "RTP"
+  ],
+  "c": 3,
+  "e": ""
+ },
+ {
+  "id": "2025-HELLIN-23",
+  "tema": "Examen 2025-HELLIN",
+  "q": "Considerando la legislación vigente, ¿qué tipo de firma electrónica tiene la misma validez legal que una firma manuscrita, siendo reconocida plenamente ante tribunales y administraciones?",
+  "o": [
+   "Firma digitalizada",
+   "Firma avanzada",
+   "Firma cualificada",
+   "Firma escaneada"
+  ],
+  "c": 2,
+  "e": ""
+ },
+ {
+  "id": "2025-HELLIN-24",
+  "tema": "Examen 2025-HELLIN",
+  "q": "En SEDIPUALB@, los usuarios pueden gestionar documentos y expedientes electrónicos sin instalar ni configurar servidores ni bases de datos. Según esta descripción, ¿qué modelo de servicio representa?",
+  "o": [
+   "IaaS",
+   "PaaS",
+   "SaaS",
+   "PaaS"
+  ],
+  "c": 2,
+  "e": ""
+ },
+ {
+  "id": "2025-HELLIN-25",
+  "tema": "Examen 2025-HELLIN",
+  "q": "En los sistemas de archivos MBR (Master Boot Record) y GPT (GUID Partition Table), ¿cuál de las siguientes afirmaciones es verdadera?",
+  "o": [
+   "MBR es un estándar más moderno que GPT",
+   "GPT es un estándar más moderno que MBR",
+   "GPT tiene limitación máxima de 2TB por disco",
+   "MBR es ideal para discos de más de 2TB"
+  ],
+  "c": 1,
+  "e": ""
+ },
+ {
+  "id": "2025-HELLIN-26",
+  "tema": "Examen 2025-HELLIN",
+  "q": "¿En qué consiste el concepto de “snapshot” o instantánea de una máquina virtual?",
+  "o": [
+   "Es una imagen base del sistema que contiene únicamente el sistema operativo y que no puede contener más aplicaciones",
+   "Es una copia de seguridad realizada con el gestor de comprensión Snap",
+   "Es una imagen concreta del sistema en el momento en el que se ha superado una serie de fallos de conexión con el usuario administrador",
+   "Es una imagen concreta del sistema en el momento en el que se hace, de forma que se pueda restaurar al momento en el que se ha realizado en caso de algún error en el sistema"
+  ],
+  "c": 3,
+  "e": ""
+ },
+ {
+  "id": "2025-HELLIN-27",
+  "tema": "Examen 2025-HELLIN",
+  "q": "¿Qué función tiene un SAI en un CPD?",
+  "o": [
+   "Proporcionar energía de forma ininterrumpida durante cortes eléctricos breves",
+   "Detectar incendios en el CPD",
+   "Controlar la temperatura y humedad de la sala",
+   "Proporcionar redundancia en el sistema de refrigeración"
+  ],
+  "c": 0,
+  "e": ""
+ },
+ {
+  "id": "2025-HELLIN-28",
+  "tema": "Examen 2025-HELLIN",
+  "q": "El sistema que permite que diferentes sistemas operativos sean ejecutados en el mismo hardware a la vez y de forma aislada se denomina:",
+  "o": [
+   "Hipervisor",
+   "Máquina virtual",
+   "Host",
+   "Invitado"
+  ],
+  "c": 0,
+  "e": ""
+ },
+ {
+  "id": "2025-HELLIN-29",
+  "tema": "Examen 2025-HELLIN",
+  "q": "En el ámbito de la virtualización, ¿qué es VDI?",
+  "o": [
+   "Es un protocolo para virtualizar unidades de disco en un entorno basado en KVM",
+   "Es una extensión de comunicaciones seguras entre entornos virtuales basados en TLS",
+   "Es un sistema por el cual se proporciona a cada usuario un escritorio virtual basado en una máquina virtual",
+   "Es una infraestructura de discos virtuales que proporcionan algunas cabinas"
+  ],
+  "c": 2,
+  "e": ""
+ },
+ {
+  "id": "2025-HELLIN-30",
+  "tema": "Examen 2025-HELLIN",
+  "q": "¿Cuál de las siguientes NO es una función que proporcione Microsoft Active Directory?",
+  "o": [
+   "Administración de usuarios y grupos",
+   "Permite la aplicación de directivas a grupos de usuarios",
+   "Autenticación centralizada",
+   "Supervisión del tráfico de red"
+  ],
+  "c": 3,
+  "e": ""
+ },
+ {
+  "id": "2025-HELLIN-31",
+  "tema": "Examen 2025-HELLIN",
+  "q": "¿Cuál de los siguientes protocolos NO se utiliza en los servicios de correo electrónico?",
+  "o": [
+   "MIME",
+   "IMAP",
+   "SMTP",
+   "SNMP"
+  ],
+  "c": 3,
+  "e": ""
+ },
+ {
+  "id": "2025-HELLIN-32",
+  "tema": "Examen 2025-HELLIN",
+  "q": "Respecto a la seguridad en redes, ¿qué es un exploit?",
+  "o": [
+   "Malware diseñado para aprovechar la vulnerabilidad de un software",
+   "Persona que accede a datos no autorizados",
+   "Adware que modifica la página de inicio de los navegadores de internet sin el consentimiento del usuario",
+   "Software utilizado para la suplantación de la identidad de un usuario de la red"
+  ],
+  "c": 0,
+  "e": ""
+ },
+ {
+  "id": "2025-HELLIN-33",
+  "tema": "Examen 2025-HELLIN",
+  "q": "¿Para qué sirve una VPN (Red Privada Virtual)? Señala el enunciado FALSO:",
+  "o": [
+   "Para establecer túneles de cliente que permitan el acceso a servicios como si estuviéramos en la oficina",
+   "Para establecer conexiones seguras entre edificios",
+   "Para encriptar las conexiones con https en la navegación web",
+   "Para controlar el perímetro de acceso en escenarios de teletrabajo"
+  ],
+  "c": 2,
+  "e": ""
+ },
+ {
+  "id": "2025-HELLIN-34",
+  "tema": "Examen 2025-HELLIN",
+  "q": "Para la prevención del acoso sexual y del acoso por razón de sexo, las Administraciones públicas negociarán con la representación legal de las trabajadoras y trabajadores, un protocolo de actuación que comprenderá, al menos, los siguientes principios:",
+  "o": [
+   "El compromiso de la Administración General del Estado y de los organismos públicos vinculados o dependientes de ella de prevenir y tolerar el acoso sexual y el acoso por razón de sexo",
+   "La instrucción a todo el personal de su deber de respetar la dignidad de las personas y su derecho a la intimidad, así como la igualdad de trato entre mujeres y hombres.",
+   "El tratamiento público de las denuncias de hechos que pudieran ser constitutivos de acoso sexual o de acoso por razón de sexo, sin perjuicio de lo establecido en la normativa de régimen disciplinario",
+   "El anonimato de las personas responsables de atender a quienes formulen una queja o denuncia"
+  ],
+  "c": 1,
+  "e": ""
+ },
+ {
+  "id": "2025-HELLIN-35",
+  "tema": "Examen 2025-HELLIN",
+  "q": "Desde la responsabilidad del Gobierno del Estado y de manera inmediata a la entrada en vigor de la Ley Orgánica 1/2004, de 28 de diciembre, de Medidas de Protección Integral contra la Violencia de Género, con la consiguiente dotación presupuestaria, se pondrá en marcha un Plan Estatal de Sensibilización y Prevención de la Violencia de Género con carácter permanente que como mínimo recoja los siguientes elementos (marque la respuesta INCORRECTA):",
+  "o": [
+   "Que introduzca en el escenario social las nuevas escalas de valores basadas en el respeto de los derechos y libertades fundamentales y de la igualdad entre hombres y mujeres, así como en el ejercicio de la tolerancia y de la libertad dentro de los principios democráticos de convivencia, todo ello desde la perspectiva de las relaciones de género",
+   "Dirigido a hombres, desde un trabajo comunitario e intercultural, incluyendo el ámbito de las tecnologías de la información y el digital",
+   "Que contemple un amplio programa de formación complementaria y de reciclaje de los profesionales que intervienen en estas situaciones",
+   "Controlado por una Comisión de amplia participación, que se creará en un plazo máximo de un mes, en la que se ha de asegurar la presencia de las víctimas y su entorno, las instituciones, los profesionales y de personas de reconocido prestigio social relacionado con el tratamiento de estos temas"
+  ],
+  "c": 1,
+  "e": ""
+ },
+ {
+  "id": "2025-HELLIN-36",
+  "tema": "Examen 2025-HELLIN",
+  "q": "No queda prohibido el tratamiento de datos personales que revelen:",
+  "o": [
+   "El origen étnico o racial",
+   "Las opiniones políticas",
+   "Las convicciones religiosas o filosóficas",
+   "El domicilio"
+  ],
+  "c": 3,
+  "e": ""
+ },
+ {
+  "id": "2025-HELLIN-37",
+  "tema": "Examen 2025-HELLIN",
+  "q": "¿Qué diferencia a un Service Desk de un Help Desk?",
+  "o": [
+   "El Help Desk es más proactivo, mientras que el Service Desk es reactivo",
+   "El Service Desk tiene un rango de actividad mucho más amplio y no solo se enfoca en incidencias",
+   "El Service Desk se centra solo en el soporte de hardware",
+   "No existe ninguna diferencia significativa entre ambos"
+  ],
+  "c": 1,
+  "e": ""
+ },
+ {
+  "id": "2025-HELLIN-38",
+  "tema": "Examen 2025-HELLIN",
+  "q": "¿Qué función principal ofrece un sistema MDM para proteger los datos empresariales en dispositivos móviles?",
+  "o": [
+   "Sincronización de datos a través de Bluetooth",
+   "Instalación de antivirus en la nube",
+   "Aplicación de políticas de seguridad y encriptación",
+   "Creación de perfiles de usuario personalizados en sistemas operativos móviles"
+  ],
+  "c": 2,
+  "e": ""
+ },
+ {
+  "id": "2025-HELLIN-39",
+  "tema": "Examen 2025-HELLIN",
+  "q": "¿Cuál es uno de los principales objetivos de utilizar un software de gestión remota de ordenadores?",
+  "o": [
+   "Limitar el acceso a redes sociales",
+   "Brindar asistencia técnica y solucionar problemas de forma remota",
+   "Proteger el equipo de ataques físicos",
+   "Instalar únicamente programas de ofimática"
+  ],
+  "c": 1,
+  "e": ""
+ },
+ {
+  "id": "2025-HELLIN-40",
+  "tema": "Examen 2025-HELLIN",
+  "q": "Las tabletas digitalizadoras, como las tabletas gráficas, son dispositivos de entrada que permiten a los usuarios dibujar o escribir a mano. ¿Qué principio tecnológico suelen utilizar para capturar los movimientos del lápiz?",
+  "o": [
+   "Captura de movimiento por infrarrojos",
+   "Sensores de presión y giroscopios",
+   "Escaneo láser de la superficie",
+   "Digitalización electromagnética"
+  ],
+  "c": 3,
+  "e": ""
+ },
+ {
+  "id": "OEP2022-LI-1",
+  "tema": "Examen OEP2022-LI",
+  "q": "De acuerdo con el artículo 64 de la Constitución Española de 1978 (en adelante CE), los actos del Rey, excepto la propuesta y el nombramiento del Presidente del Gobierno, y la disolución de las Cámaras prevista en el artículo 99, serán refrendados por:",
+  "o": [
+   "Los Presidentes del Congreso y el Senado.",
+   "Los Ministros o los Secretarios de Estado en función de la materia.",
+   "El Presidente del Gobierno y, en su caso, por los Presidentes del Congreso y el Senado.",
+   "El Presidente del Gobierno y, en su caso, por los Ministros competentes."
+  ],
+  "c": 3,
+  "e": ""
+ },
+ {
+  "id": "OEP2022-LI-2",
+  "tema": "Examen OEP2022-LI",
+  "q": "La suspensión de los derechos y libertades se encuentra regulada en la CE en:",
+  "o": [
+   "En el Capítulo III del Título I.",
+   "En sus artículos 52 y 53.",
+   "En el artículo 58.",
+   "En el Capítulo V del Título I."
+  ],
+  "c": 3,
+  "e": ""
+ },
+ {
+  "id": "OEP2022-LI-3",
+  "tema": "Examen OEP2022-LI",
+  "q": "Según el artículo 68 de la CE, ¿cuál es la circunscripción electoral en nuestro sistema electoral?",
+  "o": [
+   "La provincia.",
+   "El municipio.",
+   "La Comunidad Autónoma.",
+   "Distrito Municipal."
+  ],
+  "c": 0,
+  "e": ""
+ },
+ {
+  "id": "OEP2022-LI-4",
+  "tema": "Examen OEP2022-LI",
+  "q": "Según el artículo 18 de la ley 50/1997, de 27 de noviembre, del Gobierno que regula el funcionamiento del Consejo de Ministros, ¿quién actúa como Secretario de este órgano colegiado?",
+  "o": [
+   "El Vicepresidente Primero.",
+   "El Ministro portavoz del Gobierno.",
+   "El Ministro de la Presidencia.",
+   "El Ministro de Justicia."
+  ],
+  "c": 2,
+  "e": ""
+ },
+ {
+  "id": "OEP2022-LI-5",
+  "tema": "Examen OEP2022-LI",
+  "q": "De acuerdo con el artículo 78 de la CE, expirado el mandato de las Cortes Generales o en caso de disolución de las mismas, las Diputaciones Permanentes seguirán ejerciendo sus funciones hasta:",
+  "o": [
+   "La celebración de las elecciones.",
+   "La proclamación de los resultados electorales definitivos.",
+   "La elección de los nuevos presidentes de cada una de las Cámaras de las Cortes Generales.",
+   "La constitución de las nuevas Cortes Generales."
+  ],
+  "c": 3,
+  "e": ""
+ },
+ {
+  "id": "OEP2022-LI-6",
+  "tema": "Examen OEP2022-LI",
+  "q": "Según establece el artículo 24 de la Ley 19/2013, de 9 de diciembre, de transparencia, acceso a la información pública y buen gobierno, el plazo máximo para resolver y notificar la resolución de una reclamación ante el Consejo de Transparencia y Buen Gobierno será de:",
+  "o": [
+   "Un mes, transcurrido el cual, la reclamación se entenderá estimada.",
+   "Un mes, transcurrido el cual, la reclamación se entenderá desestimada.",
+   "Tres meses, transcurrido el cual, la reclamación se entenderá estimada.",
+   "Tres meses, transcurrido el cual, la reclamación se entenderá desestimada."
+  ],
+  "c": 3,
+  "e": ""
+ },
+ {
+  "id": "OEP2022-LI-7",
+  "tema": "Examen OEP2022-LI",
+  "q": "Señale cuál de los siguientes NO es un compromiso del IV Plan de Gobierno Abierto de España:",
+  "o": [
+   "Participación de los jóvenes en políticas públicas.",
+   "Protección de denunciantes.",
+   "Huella normativa.",
+   "Reforma del marco regulatorio."
+  ],
+  "c": 0,
+  "e": ""
+ },
+ {
+  "id": "OEP2022-LI-8",
+  "tema": "Examen OEP2022-LI",
+  "q": "Conforme establece el artículo 18 de la Ley 53/1984, de 26 de diciembre, de Incompatibilidades del personal al servicio de las Administraciones Públicas, todas las resoluciones de compatibilidad para desempeñar un segundo puesto o actividad en el sector público o el ejercicio de actividades privadas se inscribirán:",
+  "o": [
+   "En el Registro Central de Personal.",
+   "En la Oficina de Conflicto de Intereses.",
+   "En la Unidad de Personal del Ministerio u Organismo correspondiente.",
+   "En los Registros de Personal correspondientes."
+  ],
+  "c": 3,
+  "e": ""
+ },
+ {
+  "id": "OEP2022-LI-9",
+  "tema": "Examen OEP2022-LI",
+  "q": "De acuerdo con el artículo 30 de la Ley 39/2006, de 14 de diciembre, de Promoción de la Autonomía Personal y Atención a las personas en situación de dependencia, el grado de dependencia será revisable:",
+  "o": [
+   "A instancia del interesado.",
+   "A instancia de los representantes del interesado.",
+   "De oficio por las Administraciones Públicas competentes.",
+   "Todas las respuestas anteriores son correctas."
+  ],
+  "c": 3,
+  "e": ""
+ },
+ {
+  "id": "OEP2022-LI-10",
+  "tema": "Examen OEP2022-LI",
+  "q": "Conforme el artículo 49 de la Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres, para impulsar la adopción voluntaria de planes de igualdad, el Gobierno establecerá:",
+  "o": [
+   "Medidas de acción positiva, especialmente dirigidas a las pequeñas y las medianas empresas.",
+   "Medidas de fomento, especialmente dirigidas a las empresas de 50 o más trabajadores.",
+   "Medidas de fomento, especialmente dirigidas a las pequeñas y las medianas empresas.",
+   "Medidas de acción positiva, dirigidas a cualquier empresa, sea de capital público o privado."
+  ],
+  "c": 2,
+  "e": ""
+ },
+ {
+  "id": "OEP2022-LI-11",
+  "tema": "Examen OEP2022-LI",
+  "q": "Con carácter general el documento nacional de identidad tendrá un período de validez, a contar desde la fecha de la expedición o de cada una de sus renovaciones, de:",
+  "o": [
+   "Dos años cuando el solicitante no haya cumplido los cinco años de edad.",
+   "Cuatro años, cuando el titular haya cumplido los cinco años de edad y no haya alcanzado los treinta al momento de la expedición o renovación.",
+   "Nueve años, cuando el titular haya cumplido los treinta y no haya alcanzado los setenta.",
+   "Permanente cuando el titular haya cumplido los sesenta años."
+  ],
+  "c": 0,
+  "e": ""
+ },
+ {
+  "id": "OEP2022-LI-12",
+  "tema": "Examen OEP2022-LI",
+  "q": "De acuerdo con el artículo 4 de la Ley 6/2020, de 11 de noviembre, reguladora de determinados aspectos de los servicios electrónicos de confianza, el periodo de vigencia de los certificados cualificados:",
+  "o": [
+   "No será superior a 5 años.",
+   "No será superior a 3 años.",
+   "Es ilimitado.",
+   "No será superior a 6 años."
+  ],
+  "c": 0,
+  "e": ""
+ },
+ {
+  "id": "OEP2022-LI-13",
+  "tema": "Examen OEP2022-LI",
+  "q": "Indique según el título X de la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales, ¿cuál de los siguientes NO es un derecho digital?",
+  "o": [
+   "Derecho al testamento digital.",
+   "Derecho al olvido en servicios de redes sociales y servicios equivalentes.",
+   "Derecho a la desconexión digital en el ámbito laboral.",
+   "Derecho a la igualdad y a la no discriminación en el entorno digital."
+  ],
+  "c": 3,
+  "e": ""
+ },
+ {
+  "id": "OEP2022-LI-14",
+  "tema": "Examen OEP2022-LI",
+  "q": "Según establece el artículo 34 de la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales, los responsables y encargados de tratamiento comunicarán a la Agencia Española de Protección de Datos, las designaciones, nombramientos y ceses de los delegados de protección de datos en el plazo de:",
+  "o": [
+   "10 días.",
+   "15 días.",
+   "1 mes.",
+   "3 meses."
+  ],
+  "c": 0,
+  "e": ""
+ },
+ {
+  "id": "OEP2022-LI-15",
+  "tema": "Examen OEP2022-LI",
+  "q": "Según el Real Decreto 311/2022, de 3 de mayo, por el que se regula el Esquema Nacional de Seguridad, ¿cuál de las siguientes medidas de seguridad afecta a la dimensión de Confidencialidad?",
+  "o": [
+   "Bloqueo de puesto de trabajo.",
+   "Firma electrónica.",
+   "Registro de la actividad.",
+   "Criptografía."
+  ],
+  "c": 3,
+  "e": ""
+ },
+ {
+  "id": "OEP2022-LI-16",
+  "tema": "Examen OEP2022-LI",
+  "q": "Señale la respuesta correcta sobre lo que establece la Norma Técnica de Interoperabilidad de Protocolos de Intermediación de Datos:",
+  "o": [
+   "Las tecnologías utilizadas para los intercambios se implementarán en base a estándares según lo establecido en la Norma Técnica de Interoperabilidad de Catálogo de estándares.",
+   "De forma general en servicios de intercambio se utilizará la versión 2.0 del protocolo SCSP (Sustitución de Certificados en Soporte Papel).",
+   "Emisores y Requirentes no mantendrán trazabilidad de los intercambios de datos producidos.",
+   "Los intercambios de información se podrán implementar a través de servicios web."
+  ],
+  "c": 3,
+  "e": ""
+ },
+ {
+  "id": "OEP2022-LI-17",
+  "tema": "Examen OEP2022-LI",
+  "q": "Señale qué afirmación es correcta con respecto a las soluciones de Ciberseguridad proporcionadas por el Centro Criptológico Nacional (CCN):",
+  "o": [
+   "CLARA, protección y trazabilidad del dato.",
+   "ELENA, Simulador de Técnicas de Cibervigilancia.",
+   "GLORIA, Gestión de eventos e información de seguridad.",
+   "MONICA, Gestor de logs para responder ante incidentes y amenazas."
+  ],
+  "c": 1,
+  "e": ""
+ },
+ {
+  "id": "OEP2022-LI-18",
+  "tema": "Examen OEP2022-LI",
+  "q": "Señale la respuesta correcta referente a los servicios comunes en materia de administración electrónica:",
+  "o": [
+   "SERVINOMINA realiza la gestión completa de las fases de nómina: cálculo, contabilidad y pago.",
+   "CIRCAB poderosa herramienta de trabajo en grupo para intercambio de información y trabajo colaborativo.",
+   "eVISOR permite a un empleado público la consulta de sus nóminas correspondientes a los cinco últimos años.",
+   "ENVIA es una aplicación que hace posible el envío de ficheros de gran volumen entre usuarios."
+  ],
+  "c": 1,
+  "e": ""
+ },
+ {
+  "id": "OEP2022-LI-19",
+  "tema": "Examen OEP2022-LI",
+  "q": "La CE regula la institución del Defensor del Pueblo como:",
+  "o": [
+   "Alto comisionado del Congreso de los Diputados.",
+   "Alto comisionado de las Cortes Generales.",
+   "Alto comisionado del Poder judicial.",
+   "Alto comisionado del Gobierno de la nación."
+  ],
+  "c": 1,
+  "e": ""
+ },
+ {
+  "id": "OEP2022-LI-20",
+  "tema": "Examen OEP2022-LI",
+  "q": "¿Qué es WCAG?",
+  "o": [
+   "Unas pautas de accesibilidad de contenidos web promovidas por el W3C.",
+   "Una librería de Java EE para la creación de aplicaciones web creada por Oracle.",
+   "Un componente del ecosistema Hadoop para el manejo de Big Data.",
+   "Un framework javascript especialmente indicado para trabajar con bases de datos no relacionales."
+  ],
+  "c": 0,
+  "e": ""
+ },
+ {
+  "id": "OEP2022-LI-21",
+  "tema": "Examen OEP2022-LI",
+  "q": "¿Cuál de los siguientes es el nombre de un conector usado para carga y datos creado por el fabricante Apple?",
+  "o": [
+   "USB-Tipo C",
+   "iUSB",
+   "iFirewire",
+   "Lightning"
+  ],
+  "c": 3,
+  "e": ""
+ },
+ {
+  "id": "OEP2022-LI-22",
+  "tema": "Examen OEP2022-LI",
+  "q": "Con respecto a las sentencias del lenguaje SQL, indique la respuesta INCORRECTA:",
+  "o": [
+   "Sentencia DELETE sirve para borrar en forma sencilla distintos objetos como por ejemplo base de datos, tablas o índices.",
+   "La sentencia INSERT agrega uno o más registros a una tabla en una base de datos relacional.",
+   "La sentencia UPDATE modifica los valores de un conjunto de registros existentes en una tabla.",
+   "La sentencia GRANT se utiliza para dar permisos a un usuario."
+  ],
+  "c": 0,
+  "e": ""
+ },
+ {
+  "id": "OEP2022-LI-23",
+  "tema": "Examen OEP2022-LI",
+  "q": "Cuál de los siguientes son los objetos básicos de Kubernetes:",
+  "o": [
+   "Pod, State, Volume, Namespace.",
+   "Pod, Service, Volume, Namespace.",
+   "Job, Service, Volume, Namespace.",
+   "Job, Pod, Volume, Deployment."
+  ],
+  "c": 1,
+  "e": ""
+ },
+ {
+  "id": "OEP2022-LI-24",
+  "tema": "Examen OEP2022-LI",
+  "q": "La ALU es una parte de:",
+  "o": [
+   "La memoria.",
+   "La CPU.",
+   "El bus de operaciones.",
+   "El multiplexor de entrada."
+  ],
+  "c": 1,
+  "e": ""
+ },
+ {
+  "id": "OEP2022-LI-25",
+  "tema": "Examen OEP2022-LI",
+  "q": "Señale la respuesta correcta sobre el modelo CISC:",
+  "o": [
+   "La microprogramación es una característica esencial.",
+   "Plantea un conjunto reducido de instrucciones para reducir el número de ciclos de reloj de ejecución de cada una de ellas.",
+   "Implementa las instrucciones directamente en hardware.",
+   "Está muy extendido en el mercado de procesadores para smartphone y tablets por su bajo consumo y buen rendimiento."
+  ],
+  "c": 0,
+  "e": ""
+ },
+ {
+  "id": "OEP2022-LI-26",
+  "tema": "Examen OEP2022-LI",
+  "q": "En relación con los sistemas RAID señale la respuesta INCORRECTA:",
+  "o": [
+   "El RAID 1+0 exige un mínimo de 4 discos.",
+   "RAID 6 amplía el RAID 5 agregando un bloque de paridad.",
+   "RAID 5 necesitará un mínimo de 3 discos para ser implementado.",
+   "Un RAID 4 distribuye la información a nivel de bloques con dos discos de paridad dedicados."
+  ],
+  "c": 3,
+  "e": ""
+ },
+ {
+  "id": "OEP2022-LI-27",
+  "tema": "Examen OEP2022-LI",
+  "q": "¿Cuál de las siguientes es una tecnología de almacenamiento en disco mediante bus serie?",
+  "o": [
+   "SATA",
+   "ATA",
+   "SCSI",
+   "DLT"
+  ],
+  "c": 0,
+  "e": ""
+ },
+ {
+  "id": "OEP2022-LI-28",
+  "tema": "Examen OEP2022-LI",
+  "q": "Respecto a la norma USB indique la respuesta INCORRECTA:",
+  "o": [
+   "USB Type-C es lo mismo que USB 3.1",
+   "La diferencia entre USB 3.1 Gen 1 y USB 3.1 Gen 2 se reduce solamente a la velocidad.",
+   "USB 3.2 permite velocidades de hasta 20 Gbps.",
+   "Los dispositivos USB 2.0 pueden lograr una velocidad de transferencia máxima hasta de 480 Mbps."
+  ],
+  "c": 0,
+  "e": ""
+ },
+ {
+  "id": "OEP2022-LI-29",
+  "tema": "Examen OEP2022-LI",
+  "q": "En teoría de grafos, el algoritmo para la determinación del camino más corto, dado un vértice origen, hacia el resto de los vértices en un grafo que tiene pesos en cada arista se denomina:",
+  "o": [
+   "Algoritmo de Kruskal.",
+   "Algoritmo de Prim.",
+   "Algoritmo de Dijkstra.",
+   "Algoritmo de Floyd-Warshall."
+  ],
+  "c": 2,
+  "e": ""
+ },
+ {
+  "id": "OEP2022-LI-30",
+  "tema": "Examen OEP2022-LI",
+  "q": "Con respecto a los estándares PDF, señale que afirmación NO es correcta:",
+  "o": [
+   "PDF/UA Es el estándar global para la accesibilidad de PDF.",
+   "PDF/A proporciona las especificaciones para crear, ver e imprimir documentos digitales para conservarlos a largo plazo.",
+   "PDF/E proporciona especificaciones para crear, ver e imprimir documentos utilizados en flujos de trabajo de ingeniería.",
+   "PDF/I proporciona especificaciones para crear, ver e imprimir páginas finales listas para imprimir o listas para la prensa."
+  ],
+  "c": 3,
+  "e": ""
+ },
+ {
+  "id": "OEP2022-LI-31",
+  "tema": "Examen OEP2022-LI",
+  "q": "¿Cuál de las versiones siguientes es la más reciente del sistema operativo macOS?",
+  "o": [
+   "macOS Sierra",
+   "macOS Monterey",
+   "macOS Big Sur",
+   "macOS Ventura"
+  ],
+  "c": 3,
+  "e": ""
+ },
+ {
+  "id": "OEP2022-LI-32",
+  "tema": "Examen OEP2022-LI",
+  "q": "Cuál de las siguientes afirmaciones NO es correcta:",
+  "o": [
+   "En Windows de 64 bits, un proceso de 64 bits no puede cargar una biblioteca de vínculos dinámicos (DLL) de 32 bits.",
+   "En Windows de 64 bits, un proceso de 32 bits no puede cargar un archivo DLL de 64 bits.",
+   "En Windows de 64 bits se admiten llamadas a procedimientos remotos (RPC) entre procesos de 64 y 32 bits solo en el mismo equipo.",
+   "En Windows de 64 bits se admiten llamadas a procedimientos remotos (RPC) entre procesos de 64 y 32 bits tanto en el mismo equipo como entre equipos distintos."
+  ],
+  "c": 2,
+  "e": ""
+ },
+ {
+  "id": "OEP2022-LI-33",
+  "tema": "Examen OEP2022-LI",
+  "q": "Las bases de datos relacionales ofrecen propiedades ACID. Dicho acrónimo se refiere a:",
+  "o": [
+   "Atomicidad, Consistencia, Aislamiento y Durabilidad.",
+   "Atomicidad, Coherencia, Integridad y Distribución.",
+   "Disponibilidad, Coherencia, Intensidad y Durabilidad.",
+   "Atomicidad, Consistencia, Aislamiento y Disponibilidad."
+  ],
+  "c": 0,
+  "e": ""
+ },
+ {
+  "id": "OEP2022-LI-34",
+  "tema": "Examen OEP2022-LI",
+  "q": "Entre las características obligatorias de un sistema gestor de bases de datos orientadas a objetos, NO se encuentra:",
+  "o": [
+   "Debe permitir construir objetos complejos.",
+   "El conjunto de tipos de datos debe ser fijo, consiguiendo así mayor eficiencia en las búsquedas.",
+   "Todos los objetos deben tener un identificador que sea independiente de los valores de sus atributos.",
+   "El esquema de una BDOO incluye únicamente un conjunto de clases (o de tipos)."
+  ],
+  "c": 1,
+  "e": ""
+ },
+ {
+  "id": "OEP2022-LI-35",
+  "tema": "Examen OEP2022-LI",
+  "q": "Señale qué es el Machine Learning Services para SQL Server:",
+  "o": [
+   "Es un conjunto de tecnologías destinadas a la copia y distribución de datos y objetos de base de datos desde una base de datos a otra, para luego sincronizar ambas bases de datos y mantener su coherencia.",
+   "Es una característica de SQL Server que proporciona la capacidad de ejecutar scripts de Python y R con datos relacionales.",
+   "Es un producto de calidad de datos basado en conocimiento.",
+   "Es el servicio principal para almacenar, procesar y proteger los datos."
+  ],
+  "c": 1,
+  "e": ""
+ },
+ {
+  "id": "OEP2022-LI-36",
+  "tema": "Examen OEP2022-LI",
+  "q": "Señale la respuesta correcta relativa al Modelo Entidad/Relación Extendido según establece METRICA v3:",
+  "o": [
+   "Un atributo se define sobre diversos dominios.",
+   "El dominio no tiene existencia propia y depende de las entidades, las relaciones o los atributos.",
+   "La entidad es aquel objeto, real o abstracto, acerca del cual se desea almacenar información en la base de datos.",
+   "La clave candidata es el conjunto de atributos que garantizan la unicidad de las ocurrencias e identifican la ocurrencia unívocamente."
+  ],
+  "c": 2,
+  "e": ""
+ },
+ {
+  "id": "OEP2022-LI-38",
+  "tema": "Examen OEP2022-LI",
+  "q": "Cuál de las siguientes afirmaciones es FALSA:",
+  "o": [
+   "Un intérprete es un programa que ejecuta directamente las instrucciones escritas en un lenguaje de programación dado.",
+   "Un compilador es un programa que transforma el código fuente de un programa a su equivalente en otro lenguaje de programación de más bajo nivel.",
+   "Un transpilador es un programa que hace de intérprete y de compilador al mismo tiempo.",
+   "Un compilador cruzado o cross compiler es un compilador capaz de crear código ejecutable para otra plataforma distinta a aquélla en la que se ejecuta."
+  ],
+  "c": 2,
+  "e": ""
+ },
+ {
+  "id": "OEP2022-LI-39",
+  "tema": "Examen OEP2022-LI",
+  "q": "C++ permite especificar más de una función con el mismo nombre en el mismo ámbito. ¿Cómo se denominan estas funciones?",
+  "o": [
+   "Funciones dobles.",
+   "Funciones repetidas.",
+   "Funciones sobrecargadas.",
+   "En C++ no se puede nombrar más de una función con el mismo nombre."
+  ],
+  "c": 2,
+  "e": ""
+ },
+ {
+  "id": "OEP2022-LI-40",
+  "tema": "Examen OEP2022-LI",
+  "q": "Indica, de las siguientes afirmaciones, cuál es verdadera:",
+  "o": [
+   "Un array o vector es un tipo de dato estructurado que permite almacenar un conjunto de datos homogéneo donde cada elemento se almacena de forma consecutiva en memoria.",
+   "Bytecode es el código binario obtenido tras el proceso de compilación (Java).",
+   "C++ es un lenguaje de segunda generación.",
+   "En C++ la declaración del array: «int vector2[] = {1,2,3,4,10,9,80,70,19};», es incorrecta."
+  ],
+  "c": 0,
+  "e": ""
+ },
+ {
+  "id": "OEP2022-LI-41",
+  "tema": "Examen OEP2022-LI",
+  "q": "Señale la respuesta correcta sobre los tipos de controladores (drivers) JDBC:",
+  "o": [
+   "Los drivers tipo 1 utilizan Java puro para implementar un protocolo de red de proveedores del Sistema Gestor de Base de Datos.",
+   "Los drivers tipo 3 utilizan un protocolo de red y middleware para comunicarse con un servidor.",
+   "Según la tecnología utilizada para conectarse a la base de datos, los drivers JDBC se categorizan en 3 tipos diferentes.",
+   "Los drivers tipo 2 son controladores \"puente\", que utilizan otra tecnología (por ejemplo ODBC) para comunicarse con la base de datos."
+  ],
+  "c": 1,
+  "e": ""
+ },
+ {
+  "id": "OEP2022-LI-42",
+  "tema": "Examen OEP2022-LI",
+  "q": "Señale la respuesta INCORRECTA. Los tipos más corrientes de anomalías de base de datos son:",
+  "o": [
+   "Lecturas no repetibles.",
+   "Lecturas hundidas.",
+   "Lecturas sucias.",
+   "Lecturas fantasma."
+  ],
+  "c": 1,
+  "e": ""
+ },
+ {
+  "id": "OEP2022-LI-43",
+  "tema": "Examen OEP2022-LI",
+  "q": "En SQL, ¿cómo se pueden eliminar los datos en una tabla, pero no la propia definición de la tabla?",
+  "o": [
+   "DROP TABLE",
+   "DELETE",
+   "REMOVE",
+   "ERASE"
+  ],
+  "c": 1,
+  "e": ""
+ },
+ {
+  "id": "OEP2022-LI-44",
+  "tema": "Examen OEP2022-LI",
+  "q": "¿Cuál de los siguientes términos hace referencia a patrones generales de software para asignación de responsabilidades en el diseño orientado a objetos?",
+  "o": [
+   "OOD",
+   "GRASP",
+   "Booch",
+   "Fan-In & Fan-Out"
+  ],
+  "c": 1,
+  "e": ""
+ },
+ {
+  "id": "OEP2022-LI-46",
+  "tema": "Examen OEP2022-LI",
+  "q": "Según METRICA v3, ¿cuál es diagrama que describe en detalle un determinado escenario de un caso de uso?",
+  "o": [
+   "Diagrama de Interacción.",
+   "Diagrama de representación.",
+   "Diagrama de flujo de datos.",
+   "Diagrama de casos de uso."
+  ],
+  "c": 0,
+  "e": ""
+ },
+ {
+  "id": "OEP2022-LI-47",
+  "tema": "Examen OEP2022-LI",
+  "q": "Indique cuál de las siguientes NO es una librería de Java proporcionada por la Apache Foundation:",
+  "o": [
+   "Log4J",
+   "httpclient",
+   "commons-io",
+   "Mockete"
+  ],
+  "c": 3,
+  "e": ""
+ },
+ {
+  "id": "OEP2022-LI-48",
+  "tema": "Examen OEP2022-LI",
+  "q": "Seleccione la respuesta correcta sobre .NET:",
+  "o": [
+   ".NET es un marco multiplataforma gratuito de Google para compilar aplicaciones y servicios en la nube.",
+   ".NET es un proyecto de código abierto.",
+   ".NET sirve exclusivamente para desarrollar aplicaciones móviles.",
+   ".NET admite un amplio rango de lenguajes de programación, a excepción de C#"
+  ],
+  "c": 1,
+  "e": ""
+ },
+ {
+  "id": "OEP2022-LI-49",
+  "tema": "Examen OEP2022-LI",
+  "q": "Señale la respuesta INCORRECTA referente al objeto POCO en .NET:",
+  "o": [
+   "Es una estructura de datos de .NET que solo contiene propiedades o campos públicos.",
+   "Es el acrónimo de Plain Old CLR Object.",
+   "No hereda de otra clase o implementa una interfaz.",
+   "Podrá contener miembros como: métodos. eventos y delegados."
+  ],
+  "c": 3,
+  "e": ""
+ },
+ {
+  "id": "OEP2022-LI-51",
+  "tema": "Examen OEP2022-LI",
+  "q": "Señale cuál es un estándar OASIS que define los mecanismos para establecer y compartir contextos de seguridad, y para obtener claves de contextos de seguridad:",
+  "o": [
+   "WS-Addressing",
+   "WS-Federation",
+   "WS-SecureConversation",
+   "WS-Policy"
+  ],
+  "c": 2,
+  "e": ""
+ },
+ {
+  "id": "OEP2022-LI-52",
+  "tema": "Examen OEP2022-LI",
+  "q": "Señale la afirmación correcta con respecto a WSIL:",
+  "o": [
+   "Es un método alternativo al descubrimiento de servicios Web.",
+   "Define el modelo de programación y la arquitectura de ejecución para desplegar y buscar servicios Web en el entorno Java EE.",
+   "Define un modo de publicar y encontrar información sobre servicios Web.",
+   "Es una organización diseñada para promover la interoperatividad de servicios Web entre plataformas, sistemas operativos y lenguajes de programación."
+  ],
+  "c": 0,
+  "e": ""
+ },
+ {
+  "id": "OEP2022-LI-53",
+  "tema": "Examen OEP2022-LI",
+  "q": "¿Cuál es el motor web desarrollado por The Mozilla Foundation?",
+  "o": [
+   "WebKit",
+   "Firefox",
+   "Gecko",
+   "Edge"
+  ],
+  "c": 2,
+  "e": ""
+ },
+ {
+  "id": "OEP2022-LI-54",
+  "tema": "Examen OEP2022-LI",
+  "q": "¿Qué término está relacionado con XML-binary Optimized Packaging (XOP)?",
+  "o": [
+   "Reconstituted XML Infoset",
+   "XOP Header",
+   "XOP Package",
+   "Optimized Document"
+  ],
+  "c": 2,
+  "e": ""
+ },
+ {
+  "id": "OEP2022-LI-55",
+  "tema": "Examen OEP2022-LI",
+  "q": "¿Cuál de los siguientes NO es un framework para javascript?",
+  "o": [
+   "Angular",
+   "Bootstrap",
+   "React",
+   "JDBC"
+  ],
+  "c": 3,
+  "e": ""
+ },
+ {
+  "id": "OEP2022-LI-56",
+  "tema": "Examen OEP2022-LI",
+  "q": "Para detectar, eliminar y/o mitigar las debilidades de una aplicación se pueden realizar diferentes análisis de seguridad durante el ciclo de vida del desarrollo de software, entre los que NO se encuentra:",
+  "o": [
+   "SAST (Static Application Security Testing).",
+   "S-SDLC (Secure Software Development Liability Control).",
+   "DAST (Dynamic Application Security Testing).",
+   "SCA (Software Composition Analysis)."
+  ],
+  "c": 1,
+  "e": ""
+ },
+ {
+  "id": "OEP2022-LI-57",
+  "tema": "Examen OEP2022-LI",
+  "q": "El principio de la accesibilidad web que exige que los componentes y la navegación de la interfaz de usuario se puedan utilizar por cualquier persona usuaria es:",
+  "o": [
+   "La perceptibilidad.",
+   "La comprensibilidad.",
+   "La robustez.",
+   "La operabilidad."
+  ],
+  "c": 3,
+  "e": ""
+ },
+ {
+  "id": "OEP2022-LI-58",
+  "tema": "Examen OEP2022-LI",
+  "q": "Según METRICA v3, ¿qué tipo de pruebas son las que tienen como objetivo verificar el correcto ensamblaje entre los distintos componentes para comprobar que interactúan correctamente a través de sus interfaces, cubren la funcionalidad establecida y se ajustan a los requisitos no funcionales especificados?",
+  "o": [
+   "Pruebas del sistema.",
+   "Pruebas de implantación.",
+   "Pruebas de regresión.",
+   "Pruebas de integración."
+  ],
+  "c": 3,
+  "e": ""
+ },
+ {
+  "id": "OEP2022-LI-59",
+  "tema": "Examen OEP2022-LI",
+  "q": "Según establece METRICA v3, ¿qué participantes están presentes en la tarea de “Elaboración de los Manuales de Usuario”?",
+  "o": [
+   "Usuarios Expertos.",
+   "Consultor de Sistemas de Información.",
+   "Equipo de Formación.",
+   "Equipo de Proyecto."
+  ],
+  "c": 3,
+  "e": ""
+ },
+ {
+  "id": "OEP2022-LI-60",
+  "tema": "Examen OEP2022-LI",
+  "q": "¿Cuál de las siguientes herramientas NO es un software para el control de versiones?",
+  "o": [
+   "JMeter",
+   "Subversion",
+   "Mercurial",
+   "GIT"
+  ],
+  "c": 0,
+  "e": ""
+ },
+ {
+  "id": "OEP2022-LI-61",
+  "tema": "Examen OEP2022-LI",
+  "q": "Señale la respuesta INCORRECTA sobre el kernel de un Sistema Operativo:",
+  "o": [
+   "Controla todas las funciones importantes del hardware.",
+   "Se encarga del procesamiento paralelo de tareas (multitasking).",
+   "Es el núcleo del procesador.",
+   "Recibe peticiones de servicio de los procesos y los comunica con el hardware."
+  ],
+  "c": 2,
+  "e": ""
+ },
+ {
+  "id": "OEP2022-LI-62",
+  "tema": "Examen OEP2022-LI",
+  "q": "En un sistema UNIX, cuál es la respuesta INCORRECTA:",
+  "o": [
+   "El GID es el número de identificación de grupo.",
+   "El UID es el número de identificación de usuario.",
+   "El administrador del sistema se denomina root.",
+   "El proceso init se refiere al proceso de arranque de un usuario."
+  ],
+  "c": 3,
+  "e": ""
+ },
+ {
+  "id": "OEP2022-LI-63",
+  "tema": "Examen OEP2022-LI",
+  "q": "Respecto a la virtualización de máquinas, indique la opción FALSA:",
+  "o": [
+   "Facilita el despliegue de entornos.",
+   "Requiere aumentar la inversión en hardware específico para la virtualización.",
+   "Posibilita la ejecución de varios sistemas operativos en una única máquina física.",
+   "Permite un aprovechamiento mayor de la capacidad del hardware."
+  ],
+  "c": 1,
+  "e": ""
+ },
+ {
+  "id": "OEP2022-LI-64",
+  "tema": "Examen OEP2022-LI",
+  "q": "Una copia de seguridad (backup) diferencial:",
+  "o": [
+   "Realiza una copia fiel de los datos, lo que implica que un archivo eliminado en el origen, también se eliminará en la copia de seguridad.",
+   "Partiendo de una copia de backup completa, realiza una copia de todos los datos modificados desde que se hizo ese backup completo.",
+   "Realiza una copia sólo de los datos modificados desde el último backup (sea completo o incremental).",
+   "Realiza una copia integral de los datos, copiando todos los contenidos de los sistemas a mantener."
+  ],
+  "c": 1,
+  "e": ""
+ },
+ {
+  "id": "OEP2022-LI-65",
+  "tema": "Examen OEP2022-LI",
+  "q": "¿En qué campo del objeto de Kubernetes hay que incluir los valores que permiten identificar unívocamente al objeto?",
+  "o": [
+   "kind",
+   "spec",
+   "apiVersion",
+   "metadata"
+  ],
+  "c": 3,
+  "e": ""
+ },
+ {
+  "id": "OEP2022-LI-66",
+  "tema": "Examen OEP2022-LI",
+  "q": "¿Cuál de los siguientes NO es un protocolo de correo electrónico?",
+  "o": [
+   "IMAP",
+   "SMTP",
+   "Outlook",
+   "POP3"
+  ],
+  "c": 2,
+  "e": ""
+ },
+ {
+  "id": "OEP2022-LI-67",
+  "tema": "Examen OEP2022-LI",
+  "q": "De los siguientes protocolos, ¿cuál se utiliza para administrar dispositivos de una red?",
+  "o": [
+   "SMTP",
+   "DNS",
+   "FTP",
+   "CMIP"
+  ],
+  "c": 3,
+  "e": ""
+ },
+ {
+  "id": "OEP2022-LI-68",
+  "tema": "Examen OEP2022-LI",
+  "q": "¿Cuál es el comando usado por el administrador SNMP que se utiliza para recuperar datos voluminosos de una tabla MIB grande?",
+  "o": [
+   "GET",
+   "GET BULK",
+   "GET NEXT",
+   "GET RESPONSE"
+  ],
+  "c": 1,
+  "e": ""
+ },
+ {
+  "id": "OEP2022-LI-69",
+  "tema": "Examen OEP2022-LI",
+  "q": "¿Qué es ECDSA?",
+  "o": [
+   "Un algoritmo de firma.",
+   "Un estándar estadounidense de cableado.",
+   "Un organismo regulador internacional.",
+   "Un protocolo de nivel de enlace."
+  ],
+  "c": 0,
+  "e": ""
+ },
+ {
+  "id": "OEP2022-LI-70",
+  "tema": "Examen OEP2022-LI",
+  "q": "Seleccione la respuesta INCORRECTA sobre la firma electrónica:",
+  "o": [
+   "Se llama Co-firma a la firma múltiple en la que todos los firmantes están al mismo nivel y en la que no importa el orden en el que se firma.",
+   "Cuando se firma en formato XAdES (XML Avanzado), el resultado es un fichero de texto XML.",
+   "En el formato XAdES se habla de firmas despegadas (detached), envolventes (enveloping) y envueltas (enveloped) según en qué sitio del propio fichero de firma se guarde el documento original.",
+   "El formato PAdES (Propietario Avanzado) es el formato propio utilizado por Microsoft Office, si bien existe una implementación abierta que se aplica en Open Office."
+  ],
+  "c": 3,
+  "e": ""
+ },
+ {
+  "id": "OEP2022-LI-71",
+  "tema": "Examen OEP2022-LI",
+  "q": "¿Cuál de estos equipos de interconexión trabaja a nivel de red (nivel 3 del modelo OSI)?",
+  "o": [
+   "Enrutadores (Routers).",
+   "Puentes (Bridges).",
+   "Conmutadores (Switches).",
+   "Concentradores (Hubs)."
+  ],
+  "c": 0,
+  "e": ""
+ },
+ {
+  "id": "OEP2022-LI-72",
+  "tema": "Examen OEP2022-LI",
+  "q": "Cuál es la respuesta INCORRECTA acerca de la fibra óptica plástica (POF):",
+  "o": [
+   "Está hecha esencialmente de plástico, construida de polimetilmetacrilato envuelto en polímeros fluoruros.",
+   "Permite aprovechar todo el ancho de banda y hacerlo sin pérdidas.",
+   "Ofrece un núcleo conductor menor que el de la fibra tradicional.",
+   "Es muy flexible, lo que hace que se pueda usar sin problema en instalaciones donde los tubos son antiguos."
+  ],
+  "c": 2,
+  "e": ""
+ },
+ {
+  "id": "OEP2022-LI-73",
+  "tema": "Examen OEP2022-LI",
+  "q": "¿Cuál es el prefijo de dirección de Multicast en IPv6?",
+  "o": [
+   "::1/128",
+   "224.0.0.0/4",
+   "FF00::/8",
+   "FC00::/7"
+  ],
+  "c": 2,
+  "e": ""
+ },
+ {
+  "id": "OEP2022-LI-74",
+  "tema": "Examen OEP2022-LI",
+  "q": "Seleccione la respuesta correcta sobre los niveles y servicios del modelo OSI:",
+  "o": [
+   "El modelo OSI se compone de 7 niveles, pero se pude asimilar a un modelo de referencia simplificado de solamente 2 niveles: TCP (Niveles 1 a 4) e IP (Niveles 5, 6 y 7).",
+   "Las entidades en un nivel N+1 ofrecen servicios que son utilizados por las entidades del nivel N.",
+   "Un servicio confirmado utiliza las 4 primitivas de comunicación entre capas: Request, Indication, Response, Confirm.",
+   "Un servicio no confirmado utiliza 3 de las 4 primitivas: Request, Indication, Response."
+  ],
+  "c": 2,
+  "e": ""
+ },
+ {
+  "id": "OEP2022-LI-75",
+  "tema": "Examen OEP2022-LI",
+  "q": "¿Cuál de los siguientes organismos está especializado en telecomunicaciones de la Organización de las Naciones Unidas (ONU), encargado de regular las telecomunicaciones a nivel internacional entre las distintas administraciones y empresas operadoras?",
+  "o": [
+   "ICANN",
+   "ITU",
+   "IEEE",
+   "TIA"
+  ],
+  "c": 1,
+  "e": ""
+ },
+ {
+  "id": "OEP2022-LI-76",
+  "tema": "Examen OEP2022-LI",
+  "q": "¿Qué parte de un certificado de sitio web necesita un navegador para establecer una conexión segura HTTPS?",
+  "o": [
+   "La clave pública del certificado del sitio web, para que el navegador descifre los mensajes enviados por ese sitio web.",
+   "La clave privada del certificado del sitio web, para que el navegador cifre los mensajes que envía al sitio web.",
+   "Las claves pública y privada del certificado del sitio web, para poder cifrar y descifrar los mensajes que se intercambia con el sitio web.",
+   "Ninguna. Es el sitio web el que debe recibir las claves pública y privada del certificado de la persona que navega."
+  ],
+  "c": 0,
+  "e": ""
+ },
+ {
+  "id": "OEP2022-LI-77",
+  "tema": "Examen OEP2022-LI",
+  "q": "¿Qué es un portal cautivo?",
+  "o": [
+   "Un sitio web bloqueado por un ransomware, cuyo acceso no se recupera hasta que se paga un rescate.",
+   "Una página o aplicación web con acceso limitado, generalmente en fase de pruebas como paso previo a ponerse en producción.",
+   "Un sitio web que no cumple los criterios del nivel AA de WCAG.",
+   "Una página web que gestiona el acceso de los usuarios a una red, generalmente inalámbrica."
+  ],
+  "c": 3,
+  "e": ""
+ },
+ {
+  "id": "OEP2022-LI-78",
+  "tema": "Examen OEP2022-LI",
+  "q": "Entre los protocolos que puede usar una VPN para proporcionar cifrado NO se encuentra:",
+  "o": [
+   "PPTP/MPPE",
+   "IPSec",
+   "L2TP/IPSec",
+   "KSEC 1.1"
+  ],
+  "c": 3,
+  "e": ""
+ },
+ {
+  "id": "OEP2022-LI-79",
+  "tema": "Examen OEP2022-LI",
+  "q": "¿Qué significa CSMA/CD?",
+  "o": [
+   "Acceso múltiple por servicio de portadora y múltiples colisiones.",
+   "Acceso múltiple con detección de portadora y detección de colisiones.",
+   "Acceso único con múltiples colisiones y detección de portadora.",
+   "Acceso único de múltiples portadoras y detección de colisiones."
+  ],
+  "c": 1,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-1",
+  "tema": "Examen 2019-LI",
+  "q": "En relación a los derechos y deberes de los ciudadanos, el artículo 30 de la Constitución Española indica que:",
+  "o": [
+   "Mediante ley podrán ser de obligado cumplimiento los deberes de los ciudadanos en los casos de grave riesgo, catástrofe o calamidad pública.",
+   "Mediante Real Decreto podrán ser de obligado cumplimiento los deberes de los ciudadanos en los casos de grave riesgo, catástrofe o calamidad pública.",
+   "Mediante ley podrán eliminarse los deberes de los ciudadanos en los casos de grave riesgo, catástrofe o calamidad pública.",
+   "Mediante ley podrán regularse los deberes de los ciudadanos en los casos de grave riesgo, catástrofe o calamidad pública."
+  ],
+  "c": 3,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-2",
+  "tema": "Examen 2019-LI",
+  "q": "Según el artículo 62 de la Constitución Española, ¿a quién corresponde expedir los decretos acordados en el Consejo de Ministros?",
+  "o": [
+   "Al Rey.",
+   "Al Presidente del Gobierno.",
+   "Al titular del Ministerio de la Presidencia.",
+   "Al Presidente de la Mesa del Congreso."
+  ],
+  "c": 0,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-3",
+  "tema": "Examen 2019-LI",
+  "q": "Según el artículo 159 de la Constitución Española, el Tribunal Constitucional se compone de:",
+  "o": [
+   "Doce miembros nombrados por el Rey; de ellos, tres serán a propuesta del Congreso por mayoría de tres quintos de sus miembros.",
+   "Doce miembros nombrados por el Rey; de ellos, cuatro serán a propuesta del Congreso por mayoría de tres quintos de sus miembros.",
+   "Dieciséis miembros nombrados por el Rey; de ellos, cuatro serán a propuesta del Congreso por mayoría de tres quintos de sus miembros.",
+   "Dieciséis miembros nombrados por el Rey; de ellos, tres serán a propuesta del Congreso por mayoría de tres quintos de sus miembros."
+  ],
+  "c": 1,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-4",
+  "tema": "Examen 2019-LI",
+  "q": "Según el artículo 68 de la Constitución Española, indique de cuántos diputados se compone el Congreso:",
+  "o": [
+   "De un mínimo de 250 y de un máximo de 350.",
+   "De un mínimo de 300 y de un máximo de 400.",
+   "De un mínimo de 300 y de un máximo de 350.",
+   "De un mínimo de 350 y de un máximo de 400."
+  ],
+  "c": 1,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-5",
+  "tema": "Examen 2019-LI",
+  "q": "Según se expone en el artículo 113 de la Constitución Española, la moción de censura deberá ser propuesta por:",
+  "o": [
+   "Al menos la décima parte de los Diputados.",
+   "Al menos un veinte por ciento de los Diputados.",
+   "Al menos la décima parte de cada una de las Cámaras.",
+   "Al menos 20 Diputados y 20 Senadores."
+  ],
+  "c": 0,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-6",
+  "tema": "Examen 2019-LI",
+  "q": "¿Cuál de los siguientes NO es uno de los 17 Objetivos de Desarrollo Sostenibles de la Agenda 2030?",
+  "o": [
+   "Hambre cero.",
+   "Educación de calidad.",
+   "Aguas residuales y saneamiento.",
+   "Trabajo decente y crecimiento económico."
+  ],
+  "c": 2,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-7",
+  "tema": "Examen 2019-LI",
+  "q": "Según la Ley 19/2013, de transparencia, acceso a la información pública y buen gobierno, ¿cuál de los siguientes NO es miembro de la Comisión de Transparencia y Buen Gobierno?",
+  "o": [
+   "Un Diputado.",
+   "Un representante de la Subsecretaria de Estado de Administraciones Públicas.",
+   "Un representante del Defensor del Pueblo.",
+   "Un representante de la Autoridad Independiente de Responsabilidad Fiscal."
+  ],
+  "c": 1,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-8",
+  "tema": "Examen 2019-LI",
+  "q": "Indique cuál es el Título de la Constitución Española relativo a la Organización Territorial del Estado:",
+  "o": [
+   "Título IV.",
+   "Título VI.",
+   "Título VIII.",
+   "Título X."
+  ],
+  "c": 2,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-9",
+  "tema": "Examen 2019-LI",
+  "q": "De acuerdo con el artículo 103.1 de la Constitución Española, la Administración Pública sirve con objetividad los intereses generales y actúa de acuerdo con los principios de:",
+  "o": [
+   "Eficacia, eficiencia, descentralización, desconcentración y cooperación, con sometimiento pleno a la Ley y al Derecho.",
+   "Eficacia, jerarquía, descentralización, desconcentración y coordinación, con sometimiento pleno a la ley y al Derecho.",
+   "Eficacia, jerarquía, descentralización, concentración y coordinación, con sometimiento pleno al ordenamiento jurídico.",
+   "Eficacia, jerarquía, descentralización, desconcentración y cooperación, con sometimiento pleno a la Ley y al Derecho."
+  ],
+  "c": 1,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-10",
+  "tema": "Examen 2019-LI",
+  "q": "Según lo establecido en el artículo 82 de la Constitución Española, cuando se trate de refundir varios textos legales en uno solo, la delegación legislativa de las Cortes Generales en el Gobierno deberá otorgarse mediante:",
+  "o": [
+   "Una Ley de Bases.",
+   "Una Ley Orgánica.",
+   "Una Ley Ordinaria.",
+   "Un Decreto Legislativo."
+  ],
+  "c": 2,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-11",
+  "tema": "Examen 2019-LI",
+  "q": "En el artículo 51 de la Ley Orgánica 3/2007, para la igualdad efectiva de mujeres y hombres, se definen criterios de actuación de las Administraciones públicas. ¿Cuál de los siguientes es uno de ellos?",
+  "o": [
+   "Facilitar la conciliación de la vida familiar y laboral, sin menoscabo de la formación profesional y acción social.",
+   "Fomentar la participación en igualdad, tanto en el acceso al empleo público como a lo largo de la carrera profesional.",
+   "Establecer medidas cautelares de protección frente al acoso sexual.",
+   "Establecer medidas efectivas para eliminar cualquier discriminación retributiva, directa o indirecta, por razón de sexo."
+  ],
+  "c": 3,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-12",
+  "tema": "Examen 2019-LI",
+  "q": "Según el artículo 8 de la Ley Orgánica 3/2007, para la igualdad efectiva de mujeres y hombres, todo trato desfavorable a las mujeres relacionado con el embarazo o la maternidad constituye:",
+  "o": [
+   "Discriminación indirecta por razón de sexo.",
+   "Discriminación directa por razón de sexo.",
+   "Discriminación por asociación en razón de sexo.",
+   "Discriminación maternal por razón de sexo."
+  ],
+  "c": 1,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-13",
+  "tema": "Examen 2019-LI",
+  "q": "Según el artículo 26 de la Ley 39/2006, de Promoción de la Autonomía Personal y Atención a las personas en situación de dependencia, señale la opción correcta en relación a la clasificación de los grados de dependencia:",
+  "o": [
+   "Grado I. Dependencia moderada: cuando la persona necesita ayuda para realizar varias actividades básicas de la vida diaria, al menos una vez al día o tiene necesidades de apoyo intermitente o limitado para su autonomía personal.",
+   "Grado II. Gran dependencia: cuando la persona necesita ayuda para realizar varias actividades básicas de la vida diaria una o dos veces al día, pero no quiere el apoyo permanente de un cuidador o tiene necesidades de apoyo extenso para su autonomía personal.",
+   "Grado III. Dependencia total: cuando la persona necesita ayuda para realizar varias actividades básicas de la vida diaria varias veces al día y, por su pérdida total de autonomía necesita el apoyo indispensable y continuo de otra persona o tiene necesidades de apoyo generalizado para su autonomía personal.",
+   "Grado IV. Dependencia máxima: cuando la persona necesita constantemente ayuda para realizar cualquier actividad básica de la vida diaria."
+  ],
+  "c": 0,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-14",
+  "tema": "Examen 2019-LI",
+  "q": "En relación al DNIe v3.0, indique la respuesta correcta:",
+  "o": [
+   "Contiene dos certificados electrónicos de componentes: uno de Autenticación y otro de Firma.",
+   "La renovación de los certificados incluidos en la tarjeta del DNI electrónico puede realizarse en los Puntos de Actualización del DNIe y a través de Internet.",
+   "Actualmente, los certificados electrónicos de Autenticación y de Firma Electrónica que contiene tienen un plazo de validez de 24 meses.",
+   "El PIN debe tener un mínimo de 8 caracteres y un máximo de 12."
+  ],
+  "c": 2,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-15",
+  "tema": "Examen 2019-LI",
+  "q": "La nueva Agenda Digital \"España Digital 2025\" recoge un conjunto de medidas, reformas e inversiones. ¿En cuántos ejes se articulan estas medidas?",
+  "o": [
+   "6",
+   "9",
+   "12",
+   "10"
+  ],
+  "c": 3,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-16",
+  "tema": "Examen 2019-LI",
+  "q": "¿Qué algoritmos criptográficos soporta el DNIe v3.0?",
+  "o": [
+   "RSA, PGP y Blowfish.",
+   "RC5 y algoritmo de hash MD5.",
+   "ElGamal, algoritmo de hash MD5 y cifrado simétrico Triple DES.",
+   "RSA, algoritmo de hash SHA-256 y cifrado simétrico Triple DES y AES."
+  ],
+  "c": 3,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-17",
+  "tema": "Examen 2019-LI",
+  "q": "Con respecto a la prescripción de las sanciones referidas a la Ley Orgánica 3/2018, de Protección de Datos Personales y garantía de los derechos digitales, señale cuál de estas afirmaciones es correcta:",
+  "o": [
+   "Las sanciones por importe igual o inferior a 40.000 euros, prescriben en el plazo de diez meses.",
+   "Las sanciones por importe igual o inferior a 40.000 euros, prescriben en el plazo de un año.",
+   "Las sanciones por importe igual o inferior a 40.000 euros, prescriben en el plazo de dos años",
+   "Las sanciones por importe igual o inferior a 40.000 euros, prescriben en el plazo de tres años."
+  ],
+  "c": 1,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-18",
+  "tema": "Examen 2019-LI",
+  "q": "Señale la respuesta correcta en relación al ámbito de aplicación material del Reglamento (UE) 2016/679 en lo que respecta al tratamiento de datos personales:",
+  "o": [
+   "Se aplica al tratamiento total o parcialmente automatizado de datos personales por parte de las autoridades competentes con fines de prevención, investigación, detección o enjuiciamiento de infracciones penales, o de ejecución de sanciones penales, incluida la de protección frente a amenazas a la seguridad pública y su prevención.",
+   "Se aplica al tratamiento total o parcialmente automatizado de datos personales, así como al tratamiento no automatizado de datos personales contenidos o destinados a ser incluidos en un fichero.",
+   "Se aplica al tratamiento de datos personales efectuado por una persona física en el ejercicio de actividades exclusivamente personales o domésticas.",
+   "Se aplica al tratamiento total de datos personales."
+  ],
+  "c": 1,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-19",
+  "tema": "Examen 2019-LI",
+  "q": "Según el Esquema Nacional de Seguridad, ¿cuál de las siguientes medidas de seguridad afecta a la dimensión de Trazabilidad?",
+  "o": [
+   "Copias de seguridad.",
+   "Sellos de tiempo.",
+   "Cifrado.",
+   "Firma electrónica."
+  ],
+  "c": 1,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-20",
+  "tema": "Examen 2019-LI",
+  "q": "Conforme al artículo 30 de la Ley 39/2015, de Procedimiento Administrativo Común de las Administraciones Públicas, el cómputo de plazos señalados en días, siempre que por Ley o en el Derecho de la Unión Europea no se exprese otro cómputo, se entienden como:",
+  "o": [
+   "Días hábiles, contados a partir del día siguiente a aquel que tenga la notificación o publicación del acto de que se trate.",
+   "Días hábiles, contados a partir del mismo día a aquel que tenga la notificación o publicación del acto de que se trate.",
+   "Días naturales, contados a partir del día siguiente a aquel que tenga la notificación o publicación del acto de que se trate.",
+   "Días naturales, contados a partir del mismo día a aquel que tenga la notificación o publicación del acto de que se trate."
+  ],
+  "c": 0,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-21",
+  "tema": "Examen 2019-LI",
+  "q": "La guía de auditoría, que identifica los requisitos a cumplir en conformidad con el Esquema Nacional de Interoperabilidad (ENI), contiene un conjunto de controles apropiados para evaluar el cumplimiento de lo previsto en el ENI, agrupados en tres categorías:",
+  "o": [
+   "Marco organizativo, Marco operacional y Medidas de protección.",
+   "Marco organizativo, Marco semántico y Marco de seguridad.",
+   "Evaluación organizativa, Evaluación semántica y Evaluación temporal.",
+   "Marco organizativo, Marco operacional y Medidas técnicas."
+  ],
+  "c": 3,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-22",
+  "tema": "Examen 2019-LI",
+  "q": "¿Cuál de las siguientes NO es una Norma Técnica de Interoperabilidad?",
+  "o": [
+   "Catálogo de estándares.",
+   "Modelo de Datos para el intercambio de asientos entre las Entidades Registrales.",
+   "Protocolo de gestión de recursos de la Administración.",
+   "Expediente Electrónico."
+  ],
+  "c": 2,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-23",
+  "tema": "Examen 2019-LI",
+  "q": "Dentro de los servicios horizontales de Administración Electrónica, indique la afirmación correcta respecto a la funcionalidad principal del producto eVisor:",
+  "o": [
+   "Es un servicio que permite la creación de mapas interactivos para su presentación en portales web, cuadros de mando y otras aplicaciones sin necesidad de conocimientos de georreferenciación ni desarrollos adicionales.",
+   "Es una aplicación web de generación de copia auténtica en papel de documentos con firma electrónica y de justificantes de firma electrónica.",
+   "Es una herramienta basada en un Sistema de Información Territorial (GIS), que ofrece las funcionalidades necesarias para facilitar la gestión de la información de las Administraciones Públicas mediante la georreferenciación.",
+   "Es una herramienta que ofrece el Observatorio de Accesibilidad Web para realizar el servicio de diagnóstico en línea para las Administraciones Públicas."
+  ],
+  "c": 1,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-24",
+  "tema": "Examen 2019-LI",
+  "q": "¿Qué solución común permite la gestión de la nómina de empleados públicos?",
+  "o": [
+   "SOROLLA2",
+   "BADARAL",
+   "NEDAES",
+   "NOMINAe"
+  ],
+  "c": 2,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-25",
+  "tema": "Examen 2019-LI",
+  "q": "¿Qué es la arquitectura ARM?",
+  "o": [
+   "Una arquitectura avanzada para microprocesadores RISC.",
+   "Una arquitectura para computación en la nube, basada en el intercambio asíncrono de información entre nodos usando agentes autónomos.",
+   "Una arquitectura de almacenamiento de información basada en redes de comunicaciones de fibra óptica.",
+   "Una arquitectura de computación cuántica."
+  ],
+  "c": 0,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-26",
+  "tema": "Examen 2019-LI",
+  "q": "Indique la velocidad máxima de transferencia del USB 4.0:",
+  "o": [
+   "Hasta 20 Gbps.",
+   "Hasta 30 Gbps.",
+   "Hasta 40 Gbps.",
+   "Hasta 50 Gbps."
+  ],
+  "c": 2,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-27",
+  "tema": "Examen 2019-LI",
+  "q": "Indique cuál de las siguientes es una tecnología de interfaz hardware:",
+  "o": [
+   "Thunderbird",
+   "HIT",
+   "Thunderbolt",
+   "RISC"
+  ],
+  "c": 2,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-28",
+  "tema": "Examen 2019-LI",
+  "q": "En relación con el almacenamiento, ¿qué es un SSD?",
+  "o": [
+   "Secure System Disk. Es un sistema de almacenamiento de datos cifrado AES 128.",
+   "Solid State Disk. Es un dispositivo de almacenamiento de datos que utiliza discos magnéticos.",
+   "Solid State Drive. Es un dispositivo de almacenamiento de datos que utiliza memoria no volátil.",
+   "Solid State Device. Es un dispositivo de almacenamiento de datos que utiliza memoria volátil."
+  ],
+  "c": 2,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-29",
+  "tema": "Examen 2019-LI",
+  "q": "AV1 es un:",
+  "o": [
+   "Nuevo sistema de realidad aumentada.",
+   "Nuevo sistema operativo para la IoT.",
+   "Nuevo códec de vídeo.",
+   "Nuevo estándar de seguridad para WiFi 6."
+  ],
+  "c": 2,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-30",
+  "tema": "Examen 2019-LI",
+  "q": "Si un árbol binario lo recorremos siguiendo el orden siguiente: raíz, subárbol izquierdo, subárbol derecho, ¿cuál de los siguientes tipos de recorrido estamos utilizando?",
+  "o": [
+   "Preorden",
+   "Inorden",
+   "Postorden",
+   "Reorden"
+  ],
+  "c": 0,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-31",
+  "tema": "Examen 2019-LI",
+  "q": "En una distribución Linux, ¿qué directorio contiene, entre otros, los ficheros de configuración tanto a nivel de componentes del sistema operativo en sí, como de los programas y aplicaciones instaladas a posteriori?",
+  "o": [
+   "/root",
+   "/bin",
+   "/dev",
+   "/etc"
+  ],
+  "c": 3,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-32",
+  "tema": "Examen 2019-LI",
+  "q": "En los sistemas Linux, si se ejecuta el comando chmod 640 para modificar los permisos de un archivo, ¿qué permisos estoy asignando?",
+  "o": [
+   "Acceso de lectura, escritura y ejecución al propietario, acceso de lectura al grupo y ningún acceso al resto de usuarios.",
+   "Acceso de lectura, escritura y ejecución al propietario, acceso de lectura y escritura al grupo, y acceso de ejecución al resto de usuarios.",
+   "Acceso de lectura y escritura al propietario, acceso de lectura al grupo, y ningún acceso al resto de usuarios.",
+   "Acceso de lectura y escritura al propietario, acceso de ejecución al grupo, y ningún acceso al resto de usuarios."
+  ],
+  "c": 2,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-33",
+  "tema": "Examen 2019-LI",
+  "q": "¿Cuál de los siguientes NO es un ORM (Mapeador Objeto-Relacional)?",
+  "o": [
+   "ADO.NET Entity Framework",
+   "Ruby Hibernation",
+   "NHibernate",
+   "Hibernate"
+  ],
+  "c": 1,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-34",
+  "tema": "Examen 2019-LI",
+  "q": "¿Cuál de las siguientes opciones NO se corresponde con una de las 12 Reglas de Codd?",
+  "o": [
+   "Regla de la no subversión. Si el sistema ofrece una interfaz de acceso a bajo nivel, dicho acceso no se podrá usar para subvertir el sistema (por ejemplo para sortear restricciones de integridad o seguridad).",
+   "Tratamiento sistemático de valores nulos. El sistema debe permitir que haya campos nulos. Se debe disponer de una representación de valores desconocidos y no aplicables diferente de los valores normales.",
+   "Dependencia de la distribución. Que la base de datos se almacene o gestione de forma distribuida en varios servidores afecta al uso de la misma y a la programación de las aplicaciones de usuario.",
+   "Catálogo dinámico en línea basado en el modelo relacional. El sistema debe soportar un catálogo en línea, el catálogo relacional, que da acceso a la estructura de la base de datos y que debe ser accesible a los usuarios autorizados."
+  ],
+  "c": 2,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-35",
+  "tema": "Examen 2019-LI",
+  "q": "Indique la definición correcta en referencia a los diagramas de flujo de datos de Métrica v3:",
+  "o": [
+   "Almacén de datos: representa la información en movimiento utilizada por el sistema.",
+   "Proceso de control: representa procesos que coordinan y sincronizan las actividades de otros procesos del diagrama de flujo de datos.",
+   "Flujo de control: representa el flujo entre dos procesos de control.",
+   "Flujo de datos: representa el movimiento de los datos, y establece la comunicación entre dos almacenes."
+  ],
+  "c": 1,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-36",
+  "tema": "Examen 2019-LI",
+  "q": "Una tabla se encuentra en Tercera Forma Normal (3FN) si:",
+  "o": [
+   "Está en 2FN y todo atributo que no forma parte de una clave candidata depende de ella al completo.",
+   "Está en 2FN y no existe ninguna dependencia transitiva de atributos no principales respecto de las claves.",
+   "Está en 2FN y no existen relaciones de dependencia de reunión no triviales que no se generen desde las claves.",
+   "Está en 2FN y los atributos que no forman parte de ninguna clave dependen de la clave principal."
+  ],
+  "c": 1,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-37",
+  "tema": "Examen 2019-LI",
+  "q": "Según Métrica v3, en la teoría de la normalización se define el término de Dependencia Funcional como:",
+  "o": [
+   "Un atributo Y depende funcionalmente respecto de otro X, si depende funcionalmente de él en su totalidad, es decir, no depende de ninguno de los posibles atributos que formen parte de X.",
+   "Un atributo Y se dice que depende funcionalmente de otro X si, y sólo si, a cada valor de X le corresponde un único valor de Y.",
+   "Un atributo depende funcionalmente de otro si, y sólo si, depende de él a través de otro atributo.",
+   "Un atributo X sólo puede tomar un único valor de dominio simple."
+  ],
+  "c": 1,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-38",
+  "tema": "Examen 2019-LI",
+  "q": "En el lenguaje C++, si hablamos de un bucle con estructura do…while:",
+  "o": [
+   "Sólo se ejecuta si la condición del bucle es verdadera.",
+   "Evalúa la condición del bucle y después se ejecuta al menos una vez.",
+   "Se ejecuta una vez antes de evaluar la condición del bucle.",
+   "Se ejecuta una sola vez siempre y cuando sea verdadera la condición del bucle."
+  ],
+  "c": 2,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-39",
+  "tema": "Examen 2019-LI",
+  "q": "Señale la respuesta correcta en relación a las tecnologías y herramientas de desarrollo front-end:",
+  "o": [
+   "Sass, Less y Stylus, son preprocesadores de CSS.",
+   "Postman es una herramienta que sirve para probar la parte de front-end, no permitiendo validar los servicios REST.",
+   "Node js fue construido con el motor de java jre 1.9",
+   "Bootstrap es una herramienta de desarrollo que permite realizar test de los servicios REST, aislando al programador del front-end."
+  ],
+  "c": 0,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-40",
+  "tema": "Examen 2019-LI",
+  "q": "En Java, una clase declarada como 'abstract':",
+  "o": [
+   "Puede no estar implementada o estarlo de manera incompleta.",
+   "Puede ser instanciada.",
+   "No puede ser extendida por subclases.",
+   "No existe el modificador abstract en Java."
+  ],
+  "c": 0,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-41",
+  "tema": "Examen 2019-LI",
+  "q": "En la declaración de una clase en java, ¿mediante qué cláusula es posible definir un listado de uno o varios interfaces para la clase en cuestión?",
+  "o": [
+   "Mediante la cláusula 'interfaces'.",
+   "Mediante la cláusula 'declares'.",
+   "Mediante la cláusula 'implements'.",
+   "En Java no es posible declarar una clase con más de un interface."
+  ],
+  "c": 2,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-42",
+  "tema": "Examen 2019-LI",
+  "q": "Teniendo una base de datos relacional, con una tabla \"Empleados\" con campos {Id, Nombre, Puesto, Salario,....}, indique cuál sería una forma válida de comenzar la creación de un Trigger en ANSI SQL, si lo que se quiere validar es un cambio de valor del campo \"Salario\":",
+  "o": [
+   "CREATE TRIGGER Validar_salario BEFORE UPDATE OF Salario OF TABLE Empleados",
+   "CREATE NEW TRIGGER BEFORE UPDATE OF Salario ON Empleados",
+   "CREATE TRIGGER Validar_salario IN Empleados BEFORE UPDATE OF Salario",
+   "CREATE TRIGGER Validar_salario BEFORE UPDATE OF Salario ON Empleados"
+  ],
+  "c": 3,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-43",
+  "tema": "Examen 2019-LI",
+  "q": "Si utilizamos el gestor de base de datos Oracle (v.10g), ¿qué podríamos hacer si dentro de una transacción de la base de datos se quiere establecer un punto de recuperación?",
+  "o": [
+   "Utilizar la sentencia SAVEPOINT y así definir un punto de salvaguarda dentro de una transacción.",
+   "Utilizar la sentencia ROLLBACK y así definir un punto de salvaguarda dentro de una transacción",
+   "Usar los comandos GRANT para dar permisos adecuados de administrador DBA sobre las tablas.",
+   "Utilizar la sentencia RECOVERPOINT y así definir un punto de salvaguarda dentro de una transacción."
+  ],
+  "c": 0,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-44",
+  "tema": "Examen 2019-LI",
+  "q": "Respecto a los patrones de diseño GoF (Gang of Four), indique cuál de las siguientes definiciones se corresponde con el patrón Decorator:",
+  "o": [
+   "Proporciona el poder agregar una nueva funcionalidad a un objeto dinámicamente.",
+   "Proporciona una interfaz unificada para un conjunto de interfaces de un subsistema.",
+   "Proporciona un sustituto o representante de otro objeto para controlar el acceso a éste.",
+   "Proporciona un modo de acceder secuencialmente a los elementos de un objeto agregado sin exponer su representación interna."
+  ],
+  "c": 0,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-45",
+  "tema": "Examen 2019-LI",
+  "q": "Cuál de las siguientes afirmaciones NO se corresponde con el lenguaje UML:",
+  "o": [
+   "Una clase se representa mediante un rectángulo con tres secciones, la superior contiene el identificador o nombre de la clase, la central contiene los atributos, y la inferior, las operaciones o métodos que tienen asociados.",
+   "Las asociaciones son los elementos que representan las relaciones que existen entre los elementos estructurales que se utilizan en los modelos.",
+   "Un tipo de asociación entre elementos estructurales es la dispersión.",
+   "La agregación es un tipo de asociación entre elementos estructurales que representa una clase que es parte de otra."
+  ],
+  "c": 2,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-46",
+  "tema": "Examen 2019-LI",
+  "q": "En JAVA, siendo x=6 e y=3 (ambas variables de tipo int), la operación x^y da como resultado:",
+  "o": [
+   "216",
+   "63",
+   "3",
+   "5"
+  ],
+  "c": 3,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-47",
+  "tema": "Examen 2019-LI",
+  "q": "En el entorno de programación .Net, indique que es un NuGet:",
+  "o": [
+   "Una biblioteca de clases base.",
+   "Un administrador de paquetes.",
+   "Una implementación de .Net.",
+   "Un entorno de ejecución."
+  ],
+  "c": 1,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-48",
+  "tema": "Examen 2019-LI",
+  "q": "Indique cuál de las siguientes opciones corresponde a una API de Java para el procesamiento de documentos en formato XML.",
+  "o": [
+   "JNA",
+   "StAX",
+   "JNI",
+   "JPaX"
+  ],
+  "c": 1,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-49",
+  "tema": "Examen 2019-LI",
+  "q": "¿Cuál NO es una característica de los servicios REST?",
+  "o": [
+   "Utiliza métodos del protocolo HTTP de forma explícita.",
+   "La solicitud no requiere que el servidor recupere información de estado de la aplicación.",
+   "Son admitidos los formatos XML y JSON para la transmisión o recepción de datos.",
+   "Usa la especificación UDDI para publicar y encontrar información sobre los servicios web expuestos."
+  ],
+  "c": 3,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-50",
+  "tema": "Examen 2019-LI",
+  "q": "Indique, de entre las siguientes afirmaciones, cuál es relativa a Ruby on Rails (RoR):",
+  "o": [
+   "Es un lenguaje de programación creado por G. Ruby.",
+   "Es un framework de control de versiones escrito en el lenguaje Ruby.",
+   "Es un framework de desarrollo de aplicaciones web basado en el patrón MVC.",
+   "Es un servicio de .NET."
+  ],
+  "c": 2,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-51",
+  "tema": "Examen 2019-LI",
+  "q": "En una sentencia \"if\" en el lenguaje de programación Python, ¿cómo se identifica el bloque de código a ejecutar si la condición se cumple?",
+  "o": [
+   "El bloque debe estar delimitado por llaves {}",
+   "El bloque debe estar delimitado por corchetes []",
+   "El bloque debe estar delimitado por corchetes ()",
+   "Cada línea del bloque debe estar precedida por el mismo número de espacios en blanco, con la misma sangría."
+  ],
+  "c": 3,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-52",
+  "tema": "Examen 2019-LI",
+  "q": "En el lenguaje XML, ¿cuál de las siguientes sentencias sería correcta para añadir comentarios?",
+  "o": [
+   "<-- Aquí va el comentario /-->",
+   "< Aquí va el comentario !>",
+   "<!-- Aquí va el comentario -->",
+   "<--! Aquí va el comentario -->"
+  ],
+  "c": 2,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-53",
+  "tema": "Examen 2019-LI",
+  "q": "En relación con el Real Decreto 1112/2018, sobre accesibilidad de los sitios web y aplicaciones para dispositivos móviles del sector público, indique qué respuesta es INCORRECTA:",
+  "o": [
+   "Las entidades obligadas deberán ofrecer un mecanismo de comunicación para presentar sugerencias y quejas.",
+   "La primera revisión de accesibilidad deberá haberse realizado en el caso de los sitios web antes de dos años desde la entrada en vigor de este real decreto.",
+   "La primera revisión de accesibilidad deberá haberse realizado en el caso de las aplicaciones móviles, antes de dos años desde la entrada en vigor de este real decreto.",
+   "La entidad obligada deberá responder a la persona interesada sobre las solicitudes de información accesible y quejas, en el plazo de veinte días hábiles."
+  ],
+  "c": 2,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-54",
+  "tema": "Examen 2019-LI",
+  "q": "Según las Pautas de Accesibilidad para el Contenido Web (WCAG) 2.1, ¿cuál es el objetivo de que un contenido sea Distinguible?",
+  "o": [
+   "Crear contenido que pueda presentarse de diferentes formas (por ejemplo, con una disposición más simple) sin perder información o estructura.",
+   "Facilitar a los usuarios ver y oír el contenido, incluyendo la separación entre el primer plano y el fondo.",
+   "Proporcionar alternativas textuales para todo contenido no textual de modo que se pueda convertir a otros formatos que las personas necesiten, tales como textos ampliados, braille, voz, símbolos o en un lenguaje más simple.",
+   "Proporcionar alternativas para los medios tempodependientes."
+  ],
+  "c": 1,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-55",
+  "tema": "Examen 2019-LI",
+  "q": "Según Métrica v3, ¿qué tipo de pruebas consiste en determinar que los tiempos de respuesta están dentro de los intervalos establecidos en las especificaciones del sistema?",
+  "o": [
+   "Pruebas de respuesta.",
+   "Pruebas de sobrecarga.",
+   "Pruebas de rendimiento.",
+   "Pruebas de tiempo."
+  ],
+  "c": 2,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-56",
+  "tema": "Examen 2019-LI",
+  "q": "En el software para control de versiones GIT, hacer un 'commit' es:",
+  "o": [
+   "La acción de introducir comentarios iterativos entre versiones.",
+   "La acción de establecer un compromiso de uso (commitment) entre ambas partes.",
+   "La acción de descargar la rama de trabajo del repositorio central.",
+   "La acción de almacenar una nueva instantánea (snapshot) del estado del proyecto en el historial de GIT."
+  ],
+  "c": 3,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-57",
+  "tema": "Examen 2019-LI",
+  "q": "Señale cuál de las siguientes herramientas de software libre se utiliza para realizar pruebas de carga y de estrés, permitiendo simular escenarios de concurrencia de usuarios:",
+  "o": [
+   "Cactus",
+   "Mockito",
+   "JMeter",
+   "Foglight"
+  ],
+  "c": 2,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-58",
+  "tema": "Examen 2019-LI",
+  "q": "En Linux, ¿cuál de las siguientes opciones utilizaría para conocer qué puertos tiene abiertos un servidor?",
+  "o": [
+   "ntpq",
+   "ntport",
+   "nmap",
+   "traceroute"
+  ],
+  "c": 2,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-59",
+  "tema": "Examen 2019-LI",
+  "q": "En sistemas Debian, ¿cuál de los siguientes comandos permitiría descargar la información de los paquetes desde todas las fuentes configuradas?",
+  "o": [
+   "apt update",
+   "apt upgrade",
+   "apt full-upgrade",
+   "apt list"
+  ],
+  "c": 0,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-60",
+  "tema": "Examen 2019-LI",
+  "q": "En el contexto de la administración del almacenamiento, ¿qué es el “Thin Provisioning”?",
+  "o": [
+   "Es un mecanismo de despliegue de discos en red para clientes ligeros.",
+   "Es método de virtualización de almacenamiento que permite que el espacio se asigne de forma justa y puntual.",
+   "Es una tecnología que permite agregar discos físicos en caliente a las cabinas de la SAN de forma ligera.",
+   "Es un método por el que se asigna todo el espacio virtualizado disponible y se va a reduciendo (shrinking) a medida que el cliente lo descarta."
+  ],
+  "c": 1,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-61",
+  "tema": "Examen 2019-LI",
+  "q": "En relación a los sistemas RAID, indique qué configuración permite acceso independiente con paridad distribuida:",
+  "o": [
+   "RAID 1",
+   "RAID 3",
+   "RAID 4",
+   "RAID 5"
+  ],
+  "c": 3,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-62",
+  "tema": "Examen 2019-LI",
+  "q": "Considerando que tanto en el punto de origen como en el punto de destino disponemos de un ordenador de usuario con un cliente de correo electrónico instalado y un servidor de correo electrónico, ¿qué papel juegan los protocolos SMTP, POP3 e IMAP durante el envío de uno de estos correos electrónicos?",
+  "o": [
+   "SMTP se usa desde el ordenador del usuario de origen al servidor de correo electrónico en el origen. POP3 o IMAP se usan entre el servidor de correo en el origen y el servidor de correo en el destino. SMTP se usa de nuevo entre el servidor de correo de destino y el destinatario, para enviarle el mensaje cuando se conecte.",
+   "POP3 se usa desde el ordenador del usuario de origen al servidor de correo electrónico en el origen. IMAP se usa entre el servidor de correo en el origen y el servidor de correo en el destino. SMTP se usa entre el servidor de correo de destino y el destinatario, para enviarle el mensaje cuando se conecte.",
+   "SMTP se usa desde el ordenador del usuario de origen al servidor de correo electrónico en el origen, así como desde el servidor de origen al servidor de destino. POP3 o IMAP se usan desde el servidor de correo en el destino hasta el ordenador del destinatario, para enviarle el mensaje cuando se conecte.",
+   "POP3 o IMAP se usan desde el ordenador del usuario de origen al servidor de correo electrónico en el origen, así como desde el servidor de origen al servidor de destino. SMTP se usa desde el servidor de correo en el destino hasta el ordenador del destinatario, para enviarle el mensaje cuando se conecte."
+  ],
+  "c": 2,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-63",
+  "tema": "Examen 2019-LI",
+  "q": "En las arquitecturas de microservicios las funcionalidades se implementan mediante la composición de distintos microservicios. Existen dos estrategias para gestionar esta composición, que son:",
+  "o": [
+   "Coreografía y orquestación.",
+   "Coreografía y coordinación.",
+   "Coordinación y orquestación.",
+   "Gestión y orquestación."
+  ],
+  "c": 0,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-64",
+  "tema": "Examen 2019-LI",
+  "q": "¿Qué comando se debe ejecutar para mostrar un listado de los servicios en ejecución en un ordenador con sistema operativo Windows 10?",
+  "o": [
+   "Net view services",
+   "Net start process",
+   "Net start",
+   "Net start all"
+  ],
+  "c": 2,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-65",
+  "tema": "Examen 2019-LI",
+  "q": "¿Cuál es la última versión del protocolo de administración de red SNMP?",
+  "o": [
+   "SNMP v2",
+   "SNMP v3",
+   "SNMP v4",
+   "SNMP v5"
+  ],
+  "c": 1,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-66",
+  "tema": "Examen 2019-LI",
+  "q": "¿Indique la afirmación FALSA con respecto al proceso de firma digital?",
+  "o": [
+   "La aplicación o dispositivo digital utilizados para la firma digital crea un resumen del documento a firmar utilizando una función hash.",
+   "La aplicación cifra el documento a firmar asegurando la confidencialidad.",
+   "La aplicación cifra el resumen del documento a firmar obteniendo a su vez otro documento electrónico que corresponde con la firma electrónica.",
+   "Para cifrar el resumen, la aplicación utiliza la clave privada."
+  ],
+  "c": 1,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-67",
+  "tema": "Examen 2019-LI",
+  "q": "Indique cuál de las siguientes opciones se corresponde con el concepto de ITIL:",
+  "o": [
+   "Su origen proviene de la metodología Kaizen y ofrece a las organizaciones un instrumento útil para la sistematización de las actividades que dan soporte al ciclo de vida del software.",
+   "Es una librería java, referida a la seguridad, que forma parte de la plataforma de Jakarta EE.",
+   "Es una colección de mejores prácticas de gestión de servicios de tecnologías de la información.",
+   "Es una metodología de análisis y gestión de riesgos de los sistemas de información."
+  ],
+  "c": 2,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-68",
+  "tema": "Examen 2019-LI",
+  "q": "¿Cuál es la última versión estable del protocolo TLS?",
+  "o": [
+   "TLS 1.2",
+   "TLS 1.3",
+   "TLS 1.4",
+   "SSL 3.0"
+  ],
+  "c": 1,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-69",
+  "tema": "Examen 2019-LI",
+  "q": "Señale cuál de los siguientes NO es un algoritmo asimétrico:",
+  "o": [
+   "RSA",
+   "GOST",
+   "ECDSA",
+   "ElGamal"
+  ],
+  "c": 1,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-70",
+  "tema": "Examen 2019-LI",
+  "q": "Sobre redes inalámbricas, indique cuál de las siguientes afirmaciones es INCORRECTA:",
+  "o": [
+   "La frecuencia de 2,4 GHz presenta interferencias con algunas versiones de Bluetooth.",
+   "La seguridad del protocolo WEP es superior a la del protocolo WPA2.",
+   "El protocolo WPA3 surge, entre otros, a raiz del ataque KRACK, mejorando la modalidad de cifrado WPA2-PSK (AES).",
+   "La frecuencia de 5 GHz tiene menor alcance que la de 2,4 GHz."
+  ],
+  "c": 1,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-71",
+  "tema": "Examen 2019-LI",
+  "q": "El estándar comercializado con el nombre de Wi-Fi 6 se corresponde con el estándar de IEEE:",
+  "o": [
+   "802.11ax",
+   "802.11ac",
+   "802.11ac wave 2",
+   "802.11az"
+  ],
+  "c": 0,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-72",
+  "tema": "Examen 2019-LI",
+  "q": "¿Cuál es el prefijo para las direcciones multicast en el protocolo IPv6?",
+  "o": [
+   "FF80::/10",
+   "FF00::/8",
+   "FE00::/8",
+   "FE80::/10"
+  ],
+  "c": 1,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-73",
+  "tema": "Examen 2019-LI",
+  "q": "De los siguientes protocolos de enrutamiento, ¿cuál utiliza un algoritmo de vector de distancia?",
+  "o": [
+   "OSPF",
+   "IGRP",
+   "IS-IS",
+   "OLSR"
+  ],
+  "c": 1,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-74",
+  "tema": "Examen 2019-LI",
+  "q": "En el protocolo HTTP, el código de error que indica que el servicio no está disponible es el:",
+  "o": [
+   "500",
+   "501",
+   "502",
+   "503"
+  ],
+  "c": 3,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-75",
+  "tema": "Examen 2019-LI",
+  "q": "¿Cuál de los siguientes registros DNS proporciona información sobre las características básicas del dominio y de la zona en la que se encuentra?",
+  "o": [
+   "AAAA",
+   "PTR",
+   "MX",
+   "SOA"
+  ],
+  "c": 3,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-76",
+  "tema": "Examen 2019-LI",
+  "q": "¿Qué modalidad de gestión de dispositivos móviles se basa en permitir al usuario usar su propio dispositivo personal para tareas profesionales o educativas?",
+  "o": [
+   "COPE",
+   "BYOD",
+   "COBO",
+   "CYOD"
+  ],
+  "c": 1,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-77",
+  "tema": "Examen 2019-LI",
+  "q": "La herramienta del CCN-CERT que permite realizar análisis estático de código dañino a través de múltiples motores antivirus y antimalware para plataformas Windows y Linux es:",
+  "o": [
+   "MARIA",
+   "PILAR",
+   "CLARA",
+   "REYES"
+  ],
+  "c": 0,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-78",
+  "tema": "Examen 2019-LI",
+  "q": "En relación con las VPN de nivel de enlace, ¿cuál de los siguientes protocolos NO se utiliza para la implementación de dicha VPN?",
+  "o": [
+   "PPTP (Point-to-Point Tunneling Protocol).",
+   "L2F (Layer Two Forwarding).",
+   "L2TP (Layer Two Tunneling Protocol).",
+   "P2TP (Point two Tunneling Protocol)."
+  ],
+  "c": 3,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-79",
+  "tema": "Examen 2019-LI",
+  "q": "¿Qué es una red Scatternet?",
+  "o": [
+   "Es un tipo de red MAN (Metropolitan area network).",
+   "Es una red de dispositivos WIFI en LAN (Local area network).",
+   "Es un grupo de Piconets.",
+   "Es la red utilizada para interconectar CubeSATs."
+  ],
+  "c": 2,
+  "e": ""
+ },
+ {
+  "id": "2019-LI-80",
+  "tema": "Examen 2019-LI",
+  "q": "En relación a TCP y UDP indique cuál de las siguientes características NO es correcta:",
+  "o": [
+   "TCP es fiable.",
+   "UDP obliga al nivel de red a verificar que el envío es correcto.",
+   "TCP trabaja con un flujo de bytes.",
+   "UDP es un protocolo sin conexión."
+  ],
+  "c": 1,
+  "e": ""
+ }
+]
