@@ -159,9 +159,3 @@ npx eas-cli submit --platform ios
 
 Los cuestionarios del INAP llevan la nota "no se permite la reproducción total o parcial de este cuestionario". El banco está pensado para uso personal. Si vas a publicar la app abierta en Google Play o la App Store, consulta antes sobre propiedad intelectual o deja solo preguntas propias.
 
-## Ideas pendientes
-
-- Importar supuestos prácticos (enunciado y diagramas).
-- Añadir explicaciones a las preguntas.
-- Clasificación y progreso compartido entre usuarios (necesita servidor, por ejemplo Supabase o Firebase).
-- Exámenes más recientes de TAI del Estado (2025 y 2026).
