@@ -155,7 +155,5 @@ npx eas-cli submit --platform ios
 | No sale la splash nativa | En Expo Go no se ve. Hay que compilar la app (`run:ios` o `run:android`). La app tiene además una pantalla de bienvenida propia con el icono. |
 | Mayúsculas en el icono | `IconTai.png` debe coincidir letra por letra en `app.json`, en `App.js` y en el disco. |
 
-## Aviso sobre las preguntas
 
-Los cuestionarios del INAP llevan la nota "no se permite la reproducción total o parcial de este cuestionario". El banco está pensado para uso personal. Si vas a publicar la app abierta en Google Play o la App Store, consulta antes sobre propiedad intelectual o deja solo preguntas propias.
 
